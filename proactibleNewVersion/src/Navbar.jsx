@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { homeIcon, aboutIcon, contactIcon, whatsappIcon } from "./assets/iconPaths";
 import logo1 from './assets/images/images/logo1.png';
+import { WHATSAPP_LINK } from "./assets/whatsapp";
 
 export default function Navbar() {
   return (
@@ -31,10 +32,10 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="customNavItem">
-          <Link to="/whatsapp" className="flex items-center">
+          <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center">
             {whatsappIcon}
             <span className="ml-2">Whatsapp</span>
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>
