@@ -1,23 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { homeIcon,aboutIcon, contactIcon, whatsappIcon } from "./assets/iconPaths";
-
+import { homeIcon, aboutIcon, contactIcon, whatsappIcon } from "./assets/iconPaths";
+import logo1 from './assets/images/images/logo1.png';
 
 export default function Navbar() {
   return (
     <nav className="customNavbar">
-      <ul className="flex space-x-4">
-        <li className="Navbar"></li>
-        <li className="NavbarLogo"></li>
+      <li className="NavbarLogo">
+        <Link to="/">
+          <img src={logo1} alt="logo" />
+        </Link>
+      </li>
+      <ul className="customNavItems">
         <li className="customNavItem">
-        <Link to="/" className=" flex items-center">
+          <Link to="/" className="flex items-center">
             {homeIcon}
             <span className="ml-2">Inicio</span>
           </Link>
         </li>
         <li className="customNavItem">
           <Link to="/nosotros" className="flex items-center">
-          {aboutIcon}
+            {aboutIcon}
             <span className="ml-2">Nosotros</span>
           </Link>
         </li>
