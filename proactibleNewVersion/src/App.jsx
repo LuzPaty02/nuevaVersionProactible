@@ -1,6 +1,6 @@
 import Navbar from './Navbar';
 import { Route, Routes } from 'react-router-dom';
-import { Home, Nosotros } from './pages/pageIndex';
+import Home  from './pages/Inicio/Home';
 
 function App() {
   return (
@@ -8,7 +8,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/nosotros" element={<Nosotros />} />
       </Routes>
     </>
   );
