@@ -22,7 +22,8 @@ module.exports = {
         'custom-xl': '20px',
       },
       fontWeight: {
-        normal: 600,
+        normal: 500,
+        semibold: 600,
         bold: 700,
       },
       textColor: {
