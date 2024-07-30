@@ -58,7 +58,7 @@ export default function Banner() {
             <button className="bg-green-500 flex items-center text-white font-bold py-2 px-4 rounded-full border-none transition-transform transform hover:scale-105 ease-in-out duration-300">
               <a href={WHATSAPP_LINK} className="flex items-center">
                 {whatsappIcon}
-                <span className="ml-2 text-sm md:text-base">¡Agenda tu cita aquí!</span>
+                <span className="ml-2 text-base md:text-lg">¡Agenda tu cita aquí!</span>
               </a>
             </button>
           </div>
