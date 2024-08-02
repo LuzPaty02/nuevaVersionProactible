@@ -9,7 +9,7 @@ export default function Nosotros() {
         </h1>
       </div>
       <div className="px-4 sm:px-6 md:px-10 lg:px-20">
-        <p className="text-xl sm:text-lg md:text-xl lg:text-2xl font-normal text-darkGray font-serif text-center">
+        <p className="text-xl sm:text-lg md:text-xl lg:text-2xl font-normal text-darkGray font-serif text-center mb-4 sm:mb-6 md:mb-8 lg:mb-10">
           Nos enfocamos en la atención integral de las personas con una amputación de miembro inferior
           (pierna) para que la recuperación de su movilidad sea económicamente accesible.
         </p>
