@@ -23,7 +23,7 @@ const imageMapping = {
 
 export default function ServiceRow() {
   return (
-    <div className="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 lg:grid-cols-4">
+    <div className="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 lg:grid-cols-4 ">
       {Object.entries(pathMapping).map(([text, path], index) => (
         <div
           key={index}
