@@ -1,8 +1,12 @@
-# React + Vite
+# Pasos para ver avances
+1. Entrar a carpeta:
+```bash
+cd proactibleNewVersion
+```
+2. Correr 
+```bash
+npm run dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```
+3. Hacer click en vínculo generado en consola
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
