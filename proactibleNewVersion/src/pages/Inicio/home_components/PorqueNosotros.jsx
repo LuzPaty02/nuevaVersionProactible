@@ -6,9 +6,9 @@ import PorqueNos_Chart from "./PorqueNos_Chart";
 
 export default function CustomBarChart() {
   return (
-    <div className="p-8 max-w-full overflow-x-hidden"> {/* Ensure no overflow */}
+    <div id="impacto" className="p-8 max-w-full overflow-x-hidden"> {/* Ensure no overflow */}
       <div className="flex items-center justify-center mb-4">
-        <h2 className="text-3xl md:text-4xl font-normal text-blue p-2 font-serif max-w-full">
+        <h2 className="text-4xl md:text-6xl font-normal text-blue p-2 font-serif max-w-full">
           ¿Por qué nosotros?
         </h2>
       </div>

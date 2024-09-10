@@ -8,11 +8,11 @@ import DataCounter from "./home_components/DataCounter";
 export default function Home() {
     return (
         <>
-        <Banner />
-        <Nosotros />
-        <ServiceRow />
-        <PorqueNosotros />
-        <DataCounter />
+            <Banner />
+            <Nosotros />
+            <ServiceRow />
+            <PorqueNosotros />
+            <DataCounter />
         </>
     );
-}   
+}
