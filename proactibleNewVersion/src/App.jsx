@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="pt-16 px-6">
+      <div className="pt-16 px-6 md:px-8">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/protesis" element={<Protesis />} />

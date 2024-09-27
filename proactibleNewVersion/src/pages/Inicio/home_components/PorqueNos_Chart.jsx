@@ -1,10 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
   ComposedChart,
   Bar,
   XAxis,
   YAxis,
-  Tooltip,
   ResponsiveContainer,
   Cell,
 } from "recharts";
@@ -28,7 +27,25 @@ const data = [
   },
 ];
 
+// Custom hook to detect mobile view
+const useMobileView = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsMobile(window.innerWidth <= 768); // Mobile if width <= 768px
+    };
+    checkScreenSize();
+    window.addEventListener("resize", checkScreenSize);
+    return () => window.removeEventListener("resize", checkScreenSize);
+  }, []);
+
+  return isMobile;
+};
+
 export default function PorqueNos_Chart() {
+  const isMobile = useMobileView();
+
   const CustomBarLabel = (props) => {
     const { x, y, value, index } = props;
     let barLabel = data[index].name;
@@ -45,7 +62,7 @@ export default function PorqueNos_Chart() {
     return (
       <>
         <text
-          x={x - 20}
+          x={x +10}
           y={y - 20}
           fill="#000"
           textAnchor="start"
@@ -55,7 +72,7 @@ export default function PorqueNos_Chart() {
           {barLabel}
         </text>
         <text
-          x={x + 10}
+          x={x + 5}
           y={y + 10}
           fill="#fff"
           textAnchor="start"
@@ -69,20 +86,28 @@ export default function PorqueNos_Chart() {
   };
 
   return (
-    <ResponsiveContainer width="100%" height={400}>
+    <ResponsiveContainer width="100%" height={300}>
       <ComposedChart
         layout="vertical"
         data={data}
         margin={{
           top: 10,
-          right: 20, // Avoid right margin to prevent overflow
+          right: 60, // Adjust for mobile
           bottom: 10,
-          left: 0, // Avoid left margin to prevent overflow
+          left: 0, // Add margin for axis labels
         }}
       >
-        <XAxis type="number" hide />
-        <YAxis type="category" tickLine={false} axisLine={false} tick={false} />
-        <Tooltip />
+        {/* Show X and Y axes on mobile */}
+        <XAxis
+          type="number"
+          hide={!isMobile} // Only show on mobile
+        />
+        <YAxis
+          type="category"
+          tick={false}
+          hide={!isMobile} // Only show on mobile
+          axisLine={true} // Show axis line on mobile
+        />
         <Bar
           dataKey="value"
           barSize={20}

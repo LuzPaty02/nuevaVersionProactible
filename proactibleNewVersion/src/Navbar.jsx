@@ -5,6 +5,8 @@ import {
   aboutIcon,
   contactIcon,
   whatsappIcon,
+  conocenosIcon,
+  impactoIcon
 } from "./assets/iconPaths";
 import logo1 from "./assets/images/images/logo1.png";
 import { WHATSAPP_LINK } from "./assets/whatsapp";
@@ -36,6 +38,16 @@ export default function Navbar() {
     }
     setIsSidebarOpen(false); // Close sidebar when navigating to home
   };
+
+  /* handleImpactoClick=()=>{
+    if (location.pathname==="/impacto"){
+      scrollToSection("ImpactoInicio");
+      
+    }else{
+      window.location.href="/impacto";
+    }
+    setIsSidebarOpen(false);
+  } */
 
   const handleClickOutside = (event) => {
     if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
@@ -83,11 +95,20 @@ export default function Navbar() {
                 onClick={() => scrollToSection("impacto")}
                 className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200"
               >
-                {aboutIcon}
+                {impactoIcon}
                 <span className="ml-2 text-base">Impacto</span>
               </button>
             </li>
             <li className="list-none">
+              <button
+                onClick={() => scrollToSection("conocenos")}
+                className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200"
+              >
+                {conocenosIcon}
+                <span className="ml-2 text-base">Conocenos</span>
+              </button>
+            </li>
+            {/* <li className="list-none">
               <button
                 onClick={() => scrollToSection("contact")}
                 className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200"
@@ -106,7 +127,7 @@ export default function Navbar() {
                 {whatsappIcon}
                 <span className="ml-2 text-base">Whatsapp</span>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
 

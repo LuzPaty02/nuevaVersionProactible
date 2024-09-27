@@ -23,21 +23,27 @@ const imageMapping = {
 
 export default function ServiceRow() {
   return (
-    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+    <div className="grid grid-cols-1 gap-4 mb-16 sm:grid-cols-2 lg:grid-cols-4">
       {Object.entries(pathMapping).map(([text, path], index) => (
-        <div key={index} className="flex flex-col items-center justify-center p-2 group">
+        <div
+          key={index}
+          className="flex flex-col items-center justify-center p-2 group"
+        >
           {/* On desktop, wrap the image and button inside a single link */}
-          <Link to={path} className="hidden lg:block w-full h-auto transition-transform duration-300 transform hover:scale-105 ease-in-out">
-            <div className="w-full h-48 rounded-t overflow-hidden shadow-lg">
+          <Link
+            to={path}
+            className="hidden lg:block w-full h-auto transition-transform duration-300 transform hover:scale-105 ease-in-out"
+          >
+            <div className="relative w-full h-48 rounded-t overflow-hidden shadow-lg">
               <img
                 src={imageMapping[path]} // Use the imageMapping to get the correct image
                 alt={text}
                 className="w-full h-full object-cover"
               />
+              <button className="absolute bottom-0 left-0 w-full bg-gray-200 bg-opacity-50 text-black px-6 py-3 rounded-b transition-transform duration-300 transform active:scale-95 focus:outline-none hover:bg-blue-900 hover:bg-opacity-80 hover:text-white">
+                {text}
+              </button>
             </div>
-            <button className="w-full bg-blue-950 text-white px-6 py-3 rounded-b transition-transform duration-300 transform active:scale-95 focus:outline-none hover:bg-blue-600 active:bg-blue-700">
-              {text}
-            </button>
           </Link>
 
           {/* On mobile, keep image and button separated */}
