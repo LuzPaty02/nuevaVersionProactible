@@ -10,13 +10,18 @@ export default function Banner() {
         {/* Left Side */}
         <div className="bg-white flex-1 flex flex-col items-center justify-center text-center md:px-6 md:py-12">
           <div className="bg-white mt-12 md:mt-16 mb-2 md:mb-4 md:p-4">
-          <h1 className="font-serif text-4xl md:text-6xl font-bold text-blue rounded-lg max-w-full">
-                <span className="inline md:hidden">Laboratorio de prótesis y órtesis</span> {/* Mobile view */}
-    <span className="hidden md:inline">
-      Laboratorio de <br />prótesis y órtesis
-    </span> {/* Desktop and larger screens */}
+            <h1 className="font-serif text-4xl md:text-6xl font-bold text-blue rounded-lg max-w-full">
+              <span className="inline md:hidden">
+                Laboratorio de prótesis y órtesis
+              </span>{" "}
+              {/* Mobile view */}
+              <span className="hidden md:inline">
+                Laboratorio de <br />
+                prótesis y órtesis
+              </span>{" "}
+              {/* Desktop and larger screens */}
             </h1>
-          </div>  
+          </div>
           <div className="bg-white mb-2 md:mb-4 p-2 md:p-4">
             <p className="text-blue font-serif italic text-lg md:text-3xl">
               Para volver a caminar
@@ -27,7 +32,9 @@ export default function Banner() {
             <button className="bg-green-500 flex items-center text-white font-bold py-2 px-4 rounded-full border-none transition-transform transform hover:bg-green-600 active:bg-green-700 hover:scale-105 ease-in-out duration-300">
               <a href={WHATSAPP_LINK} className="flex items-center">
                 {whatsappIcon}
-                <span className="ml-2 text-sm md:text-base">¡Agenda Gratis Aquí! </span>
+                <span className="ml-2 text-sm md:text-base">
+                  ¡Agenda Gratis Aquí!{" "}
+                </span>
               </a>
             </button>
           </div>
@@ -43,9 +50,14 @@ export default function Banner() {
           {/* Button visible on small screens */}
           <div className="md:hidden flex justify-center mt-6 z-10">
             <button className="bg-green-500 flex items-center text-white font-bold py-2 px-4 rounded-full border-none transition-transform transform hover:scale-105 ease-in-out duration-300">
-              <a href={WHATSAPP_LINK} className="flex items-center justify-center">
+              <a
+                href={WHATSAPP_LINK}
+                className="flex items-center justify-center"
+              >
                 {whatsappIcon}
-                <span className="ml-2 text-sm md:text-lg ">¡Agenda Gratis Aquí! </span>
+                <span className="ml-2 text-sm md:text-lg ">
+                  ¡Agenda Gratis Aquí!{" "}
+                </span>
               </a>
             </button>
           </div>

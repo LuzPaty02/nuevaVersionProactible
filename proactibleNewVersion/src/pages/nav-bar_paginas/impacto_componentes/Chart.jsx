@@ -43,7 +43,7 @@ const useMobileView = () => {
   return isMobile;
 };
 
-export default function PorqueNos_Chart() {
+export default function Chart() {
   const isMobile = useMobileView();
 
   const CustomBarLabel = (props) => {
@@ -67,7 +67,7 @@ export default function PorqueNos_Chart() {
           fill="#000"
           textAnchor="start"
           dominantBaseline="middle"
-          className="text-xs sm:text-sm whitespace-nowrap overflow-hidden text-ellipsis"
+          className="text-xs sm:text-base whitespace-nowrap overflow-hidden text-ellipsis"
         >
           {barLabel}
         </text>
@@ -100,12 +100,12 @@ export default function PorqueNos_Chart() {
         {/* Show X and Y axes on mobile */}
         <XAxis
           type="number"
-          hide={!isMobile} // Only show on mobile
+          // hide={!isMobile} // Only show on mobile
         />
         <YAxis
           type="category"
           tick={false}
-          hide={!isMobile} // Only show on mobile
+          // hide={!isMobile} // Only show on mobile
           axisLine={true} // Show axis line on mobile
         />
         <Bar

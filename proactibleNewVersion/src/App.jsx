@@ -5,6 +5,7 @@ import Protesis from './pages/servicios_paginas/Protesis';
 import Ortesis from './pages/servicios_paginas/Ortesis';
 import Rehabilitacion from './pages/servicios_paginas/Rehabilitacion';
 import VentaComponentes from './pages/servicios_paginas/VentaComponentes';
+import Impacto from './pages/nav-bar_paginas/Impacto';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/ortesis" element={<Ortesis />} />
         <Route path="/rehabilitacion" element={<Rehabilitacion />} />
         <Route path="/venta-componentes" element={<VentaComponentes />} />
+        <Route path="/Impacto" element={<Impacto />} />
       </Routes>
       </div>
     </>

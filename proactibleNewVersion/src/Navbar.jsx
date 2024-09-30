@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import {
   homeIcon,
   aboutIcon,
@@ -39,16 +39,6 @@ export default function Navbar() {
     setIsSidebarOpen(false); // Close sidebar when navigating to home
   };
 
-  /* handleImpactoClick=()=>{
-    if (location.pathname==="/impacto"){
-      scrollToSection("ImpactoInicio");
-      
-    }else{
-      window.location.href="/impacto";
-    }
-    setIsSidebarOpen(false);
-  } */
-
   const handleClickOutside = (event) => {
     if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
       setIsSidebarOpen(false); // Close the sidebar if clicked outside
@@ -67,20 +57,27 @@ export default function Navbar() {
     };
   }, [isSidebarOpen]);
 
+  useEffect(() => {
+    setIsSidebarOpen(false); // Close the sidebar on location change
+  }, [location]);
+
   return (
     <nav className="bg-white shadow-lg p-4 fixed top-0 left-0 w-full z-50 h-16">
-      <div className="container mx-auto flex items-center justify-between h-full">
+      <div className="container mx-auto flex items-center justify-between h-full relative">
         
         {/* Logo on the left */}
         <div className="flex items-center flex-none">
           <a href="/" className="flex items-center">
-            <img src={logo1} alt="logo" className="w-32 h-fixed m-2 flex-shrink-0" />
+            <img src={logo1} alt="logo" className="w-44 h-fixed ml-2 flex-shrink-0" />
           </a>
         </div>
 
         {/* Centered navigation items, hidden on mobile */}
-        <div className="flex-1 justify-center sm:flex hidden">
+        <div className="flex-1 mr-14 justify-center sm:flex hidden">
           <ul className="flex items-center space-x-6">
+
+            {/* Navigation items */}
+            {/* Home */}
             <li className="list-none">
               <button
                 onClick={handleInicioClick}
@@ -90,15 +87,16 @@ export default function Navbar() {
                 <span className="ml-2 text-base">Inicio</span>
               </button>
             </li>
+
+            {/* Impacto */}
             <li className="list-none">
-              <button
-                onClick={() => scrollToSection("impacto")}
-                className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200"
-              >
+              <Link to="/Impacto" className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200">
                 {impactoIcon}
                 <span className="ml-2 text-base">Impacto</span>
-              </button>
+              </Link>
             </li>
+
+            {/* Conocenos */}
             <li className="list-none">
               <button
                 onClick={() => scrollToSection("conocenos")}
@@ -108,26 +106,6 @@ export default function Navbar() {
                 <span className="ml-2 text-base">Conocenos</span>
               </button>
             </li>
-            {/* <li className="list-none">
-              <button
-                onClick={() => scrollToSection("contact")}
-                className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200"
-              >
-                {contactIcon}
-                <span className="ml-2 text-base">Contacto</span>
-              </button>
-            </li>
-            <li className="list-none">
-              <a
-                href={WHATSAPP_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200"
-              >
-                {whatsappIcon}
-                <span className="ml-2 text-base">Whatsapp</span>
-              </a>
-            </li> */}
           </ul>
         </div>
 
@@ -137,12 +115,24 @@ export default function Navbar() {
         </div>
 
         {/* Menu button on mobile devices */}
-        <button className="text-customBlue sm:hidden m-2" onClick={toggleSidebar}>
+        <button
+          aria-expanded={isSidebarOpen} 
+          aria-controls="sidebar"
+          className="text-customBlue sm:hidden m-2"
+          onClick={toggleSidebar}
+        >
           ☰
         </button>
       </div>
 
       {/* Sidebar for mobile screens */}
+      {isSidebarOpen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-25 z-40"
+          onClick={toggleSidebar}
+        ></div>
+      )}
+
       <div
         ref={sidebarRef} // Reference to the sidebar
         className={`fixed top-0 left-0 w-64 h-full bg-white shadow-lg transform ${
@@ -163,13 +153,10 @@ export default function Navbar() {
             </button>
           </li>
           <li className="list-none">
-            <button
-              onClick={() => scrollToSection("impacto")}
-              className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200"
-            >
+            <Link to="/Impacto" className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200">
               {aboutIcon}
               <span className="ml-2 text-base">Impacto</span>
-            </button>
+            </Link>
           </li>
           <li className="list-none">
             <button
