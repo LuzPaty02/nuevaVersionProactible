@@ -1,7 +1,8 @@
 import React from "react";
-import Carreraproactible1 from "../../../assets/images/images/Carreraproactible1.jpg";
+// import Carreraproactible1 from "../../../assets/images/images/Carreraproactible1.jpg";
 import { WHATSAPP_LINK } from "../../../assets/whatsapp";
 import { whatsappIcon } from "../../../assets/iconPaths";
+import Carousel_Banner from "./Carousel_Banner";
 
 export default function Banner() {
   return (
@@ -41,11 +42,13 @@ export default function Banner() {
         </div>
         {/* Right Side */}
         <div className="bg-white flex-1 flex flex-col items-center justify-center md:p-4">
-          <div className="bg-white flex items-center justify-center mt-4 md:mt-10">
-            <img
-              src={Carreraproactible1}
-              className="w-full h-auto object-cover rounded-lg"
-            />
+          <Carousel_Banner />
+
+          {/*  <div className="bg-white flex items-center justify-center mt-4 md:mt-10">
+          //   <img
+          //     src={Carreraproactible1}
+          //     className="w-full h-auto object-cover rounded-lg"
+          //   /> */}
           </div>
           {/* Button visible on small screens */}
           <div className="md:hidden flex justify-center mt-6 z-10">
@@ -63,6 +66,5 @@ export default function Banner() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
