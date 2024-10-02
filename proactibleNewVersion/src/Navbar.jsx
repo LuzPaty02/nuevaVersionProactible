@@ -2,8 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {
   homeIcon,
-  aboutIcon,
-  contactIcon,
   whatsappIcon,
   conocenosIcon,
   impactoIcon
@@ -98,13 +96,13 @@ export default function Navbar() {
 
             {/* Conocenos */}
             <li className="list-none">
-              <button
-                onClick={() => scrollToSection("conocenos")}
+              
+              <Link to="/Conocenos"
                 className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200"
               >
                 {conocenosIcon}
                 <span className="ml-2 text-base">Conocenos</span>
-              </button>
+              </Link>
             </li>
           </ul>
         </div>
@@ -154,19 +152,19 @@ export default function Navbar() {
           </li>
           <li className="list-none">
             <Link to="/Impacto" className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200">
-              {aboutIcon}
+              {impactoIcon}
               <span className="ml-2 text-base">Impacto</span>
             </Link>
           </li>
           <li className="list-none">
-            <button
-              onClick={() => scrollToSection("contact")}
+            <Link to="/Conocenos"
               className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200"
             >
-              {contactIcon}
-              <span className="ml-2 text-base">Contacto</span>
-            </button>
+              {conocenosIcon}
+              <span className="ml-2 text-base">Conocenos</span>
+            </Link>
           </li>
+
           <li className="list-none">
             <a
               href={WHATSAPP_LINK}

@@ -73,9 +73,9 @@ export default function Carousel_Banner() {
           className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
           onClick={prevSlide}
         >
-          <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-600 opacity-50 hover:bg-white transition-colors duration-300">
+          <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-600 bg-opacity-50 hover:bg-white transition-colors duration-300">
             <svg
-              className="w-4 h-4 text-white"
+              className="w-4 h-4 text-white hover:text-gray-600 "
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -97,9 +97,9 @@ export default function Carousel_Banner() {
           className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
           onClick={nextSlide}
         >
-          <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-600 opacity-50 hover:bg-white transition-colors duration-300">
+          <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-600 bg-opacity-50 hover:bg-white transition-colors duration-300">
             <svg
-              className="w-4 h-4 text-white"
+              className="w-4 h-4 text-white hover:text-gray-600 "
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

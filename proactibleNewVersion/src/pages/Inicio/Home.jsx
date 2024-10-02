@@ -3,6 +3,7 @@ import Banner from "./home_components/Banner";
 import Nosotros from "./home_components/Nosotros";
 import ServiceRow from "./home_components/ServiceRow";
 import DataCounter from "./home_components/DataCounter";
+import Notas_y_Testimonios from "./home_components/Notas_y_Testimonios";
 import Map from "./home_components/Map";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
             <Banner />
             <Nosotros />
             <ServiceRow />
+            <Notas_y_Testimonios />
             <DataCounter />
             <Map 
                 location={{ lat: 19.4326, lng: -99.1332 }} 

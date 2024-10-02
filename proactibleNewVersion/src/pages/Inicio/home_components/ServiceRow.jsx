@@ -34,13 +34,13 @@ export default function ServiceRow() {
             to={path}
             className="hidden lg:block w-full h-auto transition-transform duration-300 transform hover:scale-105 ease-in-out"
           >
-            <div className="relative w-full h-48 rounded-t overflow-hidden shadow-lg">
+            <div className="relative w-full h-56 rounded-lg overflow-hidden shadow-lg">
               <img
                 src={imageMapping[path]} // Use the imageMapping to get the correct image
                 alt={text}
                 className="w-full h-full object-cover"
               />
-              <button className="absolute bottom-0 left-0 w-full bg-gray-200 bg-opacity-50 text-black px-6 py-3 rounded-b transition-transform duration-300 transform active:scale-95 focus:outline-none hover:bg-blue-900 hover:bg-opacity-80 hover:text-white">
+              <button className="absolute bottom-0 left-0 w-full bg-gray-200 bg-opacity-50 text-black px-6 py-3 rounded-b-xl transition-transform duration-300 transform active:scale-95 focus:outline-none hover:bg-blue-900 hover:bg-opacity-80 hover:text-white">
                 {text}
               </button>
             </div>
