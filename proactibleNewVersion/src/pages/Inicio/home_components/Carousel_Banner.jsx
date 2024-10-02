@@ -3,30 +3,25 @@ import Carreraproactible1 from "../../../assets/images/images/Carreraproactible1
 import protesis from "../../../assets/images/images/gallery/protesis.jpg";
 
 export default function Carousel_Banner() {
-  // State to track the current active slide
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  // Array of image sources
   const slides = [
     { src: Carreraproactible1, alt: "Carreraproactible1" },
     { src: protesis, alt: "protesis" },
   ];
 
-  // Function to go to the next slide
   const nextSlide = () => {
     setCurrentSlide((prevSlide) =>
       prevSlide === slides.length - 1 ? 0 : prevSlide + 1
     );
   };
 
-  // Function to go to the previous slide
   const prevSlide = () => {
     setCurrentSlide((prevSlide) =>
       prevSlide === 0 ? slides.length - 1 : prevSlide - 1
     );
   };
 
-  // Function to manually set a specific slide using indicators
   const setSlide = (index) => {
     setCurrentSlide(index);
   };
@@ -51,8 +46,8 @@ export default function Carousel_Banner() {
           </div>
         ))}
 
-         {/* Slider indicators */}
-         <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+        {/* Slider indicators */}
+        <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
           {slides.map((_, index) => (
             <button
               key={index}
@@ -75,7 +70,7 @@ export default function Carousel_Banner() {
         >
           <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-600 bg-opacity-50 hover:bg-white transition-colors duration-300">
             <svg
-              className="w-4 h-4 text-white hover:text-gray-600 "
+              className="w-4 h-4 text-white group-hover:text-gray-600 transition-colors duration-300"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -99,7 +94,7 @@ export default function Carousel_Banner() {
         >
           <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-600 bg-opacity-50 hover:bg-white transition-colors duration-300">
             <svg
-              className="w-4 h-4 text-white hover:text-gray-600 "
+              className="w-4 h-4 text-white group-hover:text-gray-600 transition-colors duration-300"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

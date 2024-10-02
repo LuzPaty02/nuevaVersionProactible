@@ -34,17 +34,17 @@ export default function Testimonios_card() {
                 {aboutIcon}
               </span>
               <a
-                className="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-700 border-2 border-white rounded-full"
+                className="flex items-center justify-center w-10 h-10 text-lg font-medium text-white bg-gray-700 border-2 border-white rounded-full"
                 href="#"
               >
-                +99
+                +
               </a>
             </div>
             <div className="flex items-end justify-end mt-auto">
             <Link to="/Conocenos">
               <a
                 href="#"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 transition-transform duration-300 transform hover:scale-105 ease-in-out focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ml-auto"
+                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-950 rounded-lg hover:bg-blue-800 transition-transform duration-300 transform hover:scale-105 ease-in-out focus:ring-4 focus:outline-none focus:ring-blue-300 ml-auto"
               >
                 Ver más
                 <svg
