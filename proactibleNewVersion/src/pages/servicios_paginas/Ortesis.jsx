@@ -18,7 +18,7 @@ export default function Ortesis() {
         {/* Column for Text */}
         <div className="w-full md:w-2/5 p-4 flex flex-col justify-center">
           <h2 className="text-4xl md:text-6xl font-normal text-blue p-2 font-serif">
-            Ortesis
+            Órtesis
           </h2>
           <p className="mt-4 text-lg">
             Las órtesis son dispositivos aplicados externamente con la finalidad de restaurar o mejorar la funcionalidad del sistema musculoesquelético.

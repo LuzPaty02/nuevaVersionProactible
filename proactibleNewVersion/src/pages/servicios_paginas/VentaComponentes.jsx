@@ -95,7 +95,7 @@ export default function VentaComponentes() {
                     {" "}
                     {/* Use w-full for the link to take full width */}
                     {whatsappIcon}
-                    <span className="m-2 text-sm md:text-xs">Ver costos</span>
+                    <span className="m-2 text-sm md:text-xs">Cotizar</span>
                   </a>
                 </button>
               </div>

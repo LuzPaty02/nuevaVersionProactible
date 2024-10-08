@@ -23,7 +23,7 @@ export default function Notas_Card() {
           </p>
         </div>
         <div className="flex items-end justify-end mt-auto">
-          <Link to="/Conocenos">
+          <Link to="/Impacto">
             <a
               href="#"
               className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-950 rounded-lg hover:bg-blue-800 transition-transform duration-300 transform hover:scale-105 ease-in-out focus:ring-4 focus:outline-none focus:ring-blue-300 ml-auto"

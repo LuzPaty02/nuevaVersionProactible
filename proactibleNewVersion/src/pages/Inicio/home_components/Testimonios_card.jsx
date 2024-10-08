@@ -22,24 +22,7 @@ export default function Testimonios_card() {
             </p>
           </div>
           <div>
-            <div className="flex -space-x-4 rtl:space-x-reverse my-4">
-              {/* Replace the img tag with direct SVG rendering */}
-              <span className="w-10 h-10 border-2 rounded-full bg-white flex items-center justify-center">
-                {aboutIcon}
-              </span>
-              <span className="w-10 h-10 border-2 border-gray-200 rounded-full bg-white flex items-center justify-center">
-                {aboutIcon}
-              </span>
-              <span className="w-10 h-10 border-2 border-gray-200 rounded-full bg-white flex items-center justify-center">
-                {aboutIcon}
-              </span>
-              <a
-                className="flex items-center justify-center w-10 h-10 text-lg font-medium text-white bg-gray-700 border-2 border-white rounded-full"
-                href="#"
-              >
-                +
-              </a>
-            </div>
+              
             <div className="flex items-end justify-end mt-auto">
             <Link to="/Conocenos">
               <a

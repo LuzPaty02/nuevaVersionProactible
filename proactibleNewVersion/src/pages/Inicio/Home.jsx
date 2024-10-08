@@ -16,6 +16,9 @@ export default function Home() {
             <Nosotros />
             <ServiceRow />
             <Notas_y_Testimonios />
+            <h2 className="p-4 text-4xl md:text-6xl justify-center font-normal pb-8 text-blue font-serif max-w-full">
+                Titulo
+            </h2>
             <DataCounter />
             <Map 
                 location={{ lat: 19.4326, lng: -99.1332 }} 
