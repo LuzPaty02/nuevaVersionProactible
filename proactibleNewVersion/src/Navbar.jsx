@@ -86,13 +86,6 @@ export default function Navbar() {
               </button>
             </li>
 
-            {/* Impacto */}
-            <li className="list-none">
-              <Link to="/Impacto" className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200">
-                {impactoIcon}
-                <span className="ml-2 text-base">Impacto</span>
-              </Link>
-            </li>
 
             {/* Conocenos */}
             <li className="list-none">
@@ -102,6 +95,13 @@ export default function Navbar() {
               >
                 {conocenosIcon}
                 <span className="ml-2 text-base">Conocenos</span>
+              </Link>
+            </li>
+            {/* Impacto */}
+            <li className="list-none">
+              <Link to="/Impacto" className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200">
+                {impactoIcon}
+                <span className="ml-2 text-base">Impacto</span>
               </Link>
             </li>
           </ul>
@@ -151,12 +151,6 @@ export default function Navbar() {
             </button>
           </li>
           <li className="list-none">
-            <Link to="/Impacto" className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200">
-              {impactoIcon}
-              <span className="ml-2 text-base">Impacto</span>
-            </Link>
-          </li>
-          <li className="list-none">
             <Link to="/Conocenos"
               className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200"
             >
@@ -165,6 +159,12 @@ export default function Navbar() {
             </Link>
           </li>
 
+          <li className="list-none">
+            <Link to="/Impacto" className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200">
+              {impactoIcon}
+              <span className="ml-2 text-base">Impacto</span>
+            </Link>
+          </li>
           <li className="list-none">
             <a
               href={WHATSAPP_LINK}
