@@ -32,7 +32,7 @@ export default function DataCounter() {
   }, []);
 
   return (
-    <div ref={counterRef} className="grid grid-cols-1 p-4 sm:grid-cols-2 lg:grid-cols-4">
+    <div ref={counterRef} className="grid grid-cols-1 p-1 sm:grid-cols-2 lg:grid-cols-4">
       <div className="flex flex-col items-center bg-white p-4 shadow-md rounded-none">
         {isVisible && <CountUp start={0} end={300} duration={2} className="text-2xl font-bold" />}
         <p className="mt-2 text-sm text-gray-600">Personas Atendidas</p>

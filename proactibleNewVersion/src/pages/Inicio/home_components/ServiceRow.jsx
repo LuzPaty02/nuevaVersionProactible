@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import protesis from "../../../assets/images/images/gallery/protesis.jpg";
 import ortesis from "../../../assets/images/images/gallery/ortesis.jpg";
 import rehabilitacion from "../../../assets/images/images/gallery/rehabilitacion.jpg";
-import ventaComponentes from "../../../assets/images/images/gallery/ventaComponentes.png";
+import ventaComponentesBoton from "../../../assets/images/images/ventaComponentesBoton.jpg";
 
 // Define mapping between text and paths
 const pathMapping = {
@@ -18,12 +18,12 @@ const imageMapping = {
   "/protesis": protesis,
   "/ortesis": ortesis,
   "/rehabilitacion": rehabilitacion,
-  "/venta-componentes": ventaComponentes,
+  "/venta-componentes": ventaComponentesBoton,
 };
 
 export default function ServiceRow() {
   return (
-    <div className="grid grid-cols-1 gap-4 mb-16 sm:grid-cols-2 lg:grid-cols-4">
+    <div className="grid grid-cols-1 gap-2 mb-16 sm:grid-cols-2 lg:grid-cols-4">
       {Object.entries(pathMapping).map(([text, path], index) => (
         <div
           key={index}
@@ -40,7 +40,7 @@ export default function ServiceRow() {
                 alt={text}
                 className="w-full h-full object-cover"
               />
-              <button className="absolute bottom-0 left-0 w-full bg-white  text-black font-semibold px-6 py-3 rounded-b-xl transition-transform duration-300 transform active:scale-95 focus:outline-none hover:bg-blue-900 hover:bg-opacity-80 hover:text-white">
+              <button className="absolute bottom-0 left-0 w-full bg-white text-black font-semibold px-6 py-3 rounded-b-xl transition-transform duration-300 transform active:scale-95 focus:outline-none hover:bg-blue-900 hover:bg-opacity-80 hover:text-white">
                 {text}
               </button>
             </div>
