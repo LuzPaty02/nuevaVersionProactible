@@ -4,7 +4,7 @@ import rigoberto from "../../../assets/images/images/team/rigoberto.jpg";
 
 export default function Staff() {
   return (
-    <div className="flex w-full justify-center items-center gap-6 md:gap-10 lg:gap-16 font-serif">
+    <div className="flex w-full justify-center items-center mt-10 gap-6 md:gap-8 lg:gap-8 font-serif">
       {/* Paulina */}
       <div className="flex flex-col justify-center items-center w-1/3">
         <div className="w-20 h-20 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full overflow-hidden flex-shrink-0">

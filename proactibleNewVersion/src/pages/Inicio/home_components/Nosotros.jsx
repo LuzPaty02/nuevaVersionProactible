@@ -10,7 +10,7 @@ export default function Nosotros() {
       </div>
       <div className="w-full">
       <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-normal font-serif text-center mb-4 sm:mb-6 md:mb-8 lg:mb-10">
-          Nos enfocamos en la atención integral de las personas con una amputación de miembro inferior (pierna). 
+      Nos especializamos en la fabricación de prótesis de pierna en Guadalajara y Zapopan. 
           {/* The line break that is hidden on small screens and visible on larger screens */}
           <span className="hidden sm:inline">
             <br />

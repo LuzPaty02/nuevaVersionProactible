@@ -1,7 +1,7 @@
 export default function Noticias() {
     return (
-      <div id="/Noticias" className="w-screen p-10">
-        <div className="p-5 mb-4 border border-gray-100 rounded-lg bg-gray-50">
+      <div id="/Noticias" className="w-screen ">
+        <div className="p-5 mb-4 border border-gray-100 rounded-xl bg-gray-50">
           <time className="text-xl font-semibold text-blue">
             Noticias de Proactible
           </time>

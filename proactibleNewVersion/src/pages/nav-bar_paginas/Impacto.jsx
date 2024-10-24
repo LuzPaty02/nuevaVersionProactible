@@ -2,6 +2,7 @@ import React from "react";
 import VideoEmbed from "./impacto_componentes/VideoEmbed.jsx";
 import Chart from "./impacto_componentes/Chart.jsx";
 import Noticias from "./impacto_componentes/Noticias.jsx";
+import Copa from "./impacto_componentes/Copa.jsx";
 
 export default function Impacto() {
   return (
@@ -17,10 +18,8 @@ export default function Impacto() {
       </div>
       {/* Responsive layout for Chart, Text, Video, and Text */}
       <div className="flex flex-col md:grid md:grid-cols-2 md:grid-rows-1 gap-4 max-w-full">
-        
         {/* Chart in upper-left (first on mobile view) */}
-        <div className="md:row-start-1 md:col-start-1 w-full md:0">
-        </div>
+        <div className="md:row-start-1 md:col-start-1 w-full md:0"></div>
 
         {/* Video (third on mobile view) */}
         <div className="md:row-start-2 md:col-start-2 p-4">
@@ -32,29 +31,17 @@ export default function Impacto() {
           <VideoEmbed />
         </div>
       </div>
-      <div>
-      </div>
+      <div></div>
 
       <div>
         <h2 className="text-4xl md:text-6xl justify-center font-normal p-8 text-blue font-serif max-w-full">
           Noticias de Proactible
         </h2>
-        <Noticias/>
+        <Noticias />
       </div>
-      <div className="p-8">
-        <h2 className="text-4xl md:text-6xl justify-center font-normal p-8 text-blue font-serif max-w-full">
-          Copa
-          </h2>
-          <div className="text-lg font-serif">
-            texto
-          </div>
-          <img src="" alt="imagen" />
-          <div className="">
-            texto
-          </div>
-          </div>
+      <div>
+        <Copa />
       </div>
+    </div>
   );
 }
-
-
