@@ -27,8 +27,13 @@ export default function Conocenos() {
         <h2 className="text-4xl md:text-6xl font-normal text-blue p-4 font-serif max-w-4xl text-center">
           Conoce a nuestro equipo
         </h2>
-        <div className="w-full">
+        <div className="w-7/12">
         <Staff />
+        </div>
+        <h2 className="text-4xl md:text-6xl font-normal text-blue p-4 font-serif max-w-4xl text-center">
+          Protesistas, Fisioterapeutas y Administración
+        </h2>
+        <div className="w-10/12 md:p-10">
         <Equipo />
         </div>
           

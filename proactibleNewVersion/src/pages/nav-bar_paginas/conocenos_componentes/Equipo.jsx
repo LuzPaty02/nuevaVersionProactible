@@ -1,11 +1,15 @@
 import Protesistas from "../../../assets/images/images/protesistas.jpg";
 import Fisios from "../../../assets/images/images/fisios1.jpg";
+import Administracion from "../../../assets/images/images/administracion.jpg";
+
 export default function Equipo() {
-    return (
-      <div className="mt-5 flex w-full justify-center items-center gap-6 md:gap-10 lg:gap-16 font-serif">
-        {/* Protesistas*/}
-        <div className="flex flex-col justify-center items-center w-1/3">
-          <div className="w-20 h-20 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full overflow-hidden flex-shrink-0">
+  return (
+    <div className="font-serif">
+      {/* First Row: Two Columns */}
+      <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-20 justify-center items-center">
+        {/* Protesistas */}
+        <div className="flex flex-col justify-center items-center">
+          <div className="w-full h-40 sm:h-60 md:h-80 rounded-xl overflow-hidden">
             <img
               className="w-full h-full object-cover"
               src={Protesistas}
@@ -14,19 +18,33 @@ export default function Equipo() {
           </div>
           <h2 className="text-lg text-blue font-bold mt-4">Protesistas</h2>
         </div>
-  
+
         {/* Fisios */}
-        <div className="flex flex-col justify-center items-center w-1/3">
-          <div className="w-20 h-20 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full overflow-hidden flex-shrink-0">
+        <div className="flex flex-col justify-center items-center">
+          <div className="w-full h-40 sm:h-60 md:h-80 rounded-xl overflow-hidden">
             <img
               className="w-full h-full object-cover"
               src={Fisios}
-              alt="Fisios"
+              alt="Fisioterapeutas"
             />
           </div>
           <h2 className="text-lg text-blue font-bold mt-4">Fisioterapeutas</h2>
         </div>
       </div>
-    );
-  }
-  
+
+      {/* Second Row: Single Image Below */}
+      <div className="mt-8 flex justify-center">
+        <div className="w-full h-40 sm:h-60 md:h-80 md:w-8/12 rounded-xl overflow-hidden">
+          <img
+            className="w-full h-full object-cover"
+            src={Administracion}
+            alt="Administracion"
+          />
+        </div>
+      </div>
+      <h2 className="text-lg text-blue font-bold mt-4 text-center">
+        Administración
+      </h2>
+    </div>
+  );
+}
