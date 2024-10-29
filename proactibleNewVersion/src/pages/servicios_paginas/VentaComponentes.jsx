@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { WHATSAPP_LINK } from "../../assets/whatsapp";
 import { whatsappIcon } from "../../assets/iconPaths.jsx";
-import productData from "../../assets/products.jsx"; // Ensure the path is correct
+import productData from "../../assets/products.jsx"; 
 
 export default function VentaComponentes() {
   const [products, setProducts] = useState([]);

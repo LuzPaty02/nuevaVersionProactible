@@ -1,4 +1,4 @@
-import copaImage from "../../../assets/images/images/copa-removebg-preview.png";
+import copaImage from "../../../assets/images/images/impacto/copa.jpg";
 
 export default function Copa() {
     return (

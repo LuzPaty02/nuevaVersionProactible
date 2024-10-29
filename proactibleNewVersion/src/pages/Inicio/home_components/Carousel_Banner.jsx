@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Carreraproactible1 from "../../../assets/images/images/Carreraproactible1.jpg";
+import Carreraproactible1 from "../../../assets/images/images/pagina_inicio/Carreraproactible1.jpg";
 import protesis from "../../../assets/images/images/gallery/protesis.jpg";
 
 export default function Carousel_Banner() {

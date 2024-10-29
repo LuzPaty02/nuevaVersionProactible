@@ -1,4 +1,4 @@
-import protesisImage from '../../assets/images/images/protesis_pagina.jpg';
+import protesisImage from '../../assets/images/images/gallery/protesis.jpg';
 import { whatsappIcon } from '../../assets/iconPaths.jsx';
 import { WHATSAPP_LINK } from "../../assets/whatsapp";
 

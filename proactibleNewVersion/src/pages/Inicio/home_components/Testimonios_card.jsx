@@ -1,4 +1,4 @@
-import carlosYsenor from "../../../assets/images/images/carlosYsenor.jpg";
+import carlosYsenor from "../../../assets/images/images/pagina_inicio/carlosYsenor.jpg";
 import { testimoniosIcon, aboutIcon } from "../../../assets/iconPaths";
 import { Link } from "react-router-dom";
 
