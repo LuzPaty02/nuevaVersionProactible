@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import protesis from "../../../assets/images/images/gallery/protesis.jpg";
 import ortesis from "../../../assets/images/images/gallery/ortesis.jpg";
-import rehabilitacion from "../../../assets/images/images/gallery/rehabilitacion.jpg";
+import rehabilitacion from "../../../assets/images/images/pagina_inicio/rehabilitacion_boton.jpg";
 import ventaComponentesBoton from "../../../assets/images/images/pagina_inicio/ventaComponentesBoton.jpg";
 
 // Define mapping between text and paths

@@ -20,7 +20,7 @@ export default function Contacto() {
           </p>
         </div>
 
-        {/* Right Section: Title, Paragraph, and Buttons */}
+        {/* Right Section: Title, Paragraph, and Lists */}
         <div className="lg:col-span-2 p-4 flex flex-col space-y-6 w-full">
           {/* Title and Paragraph */}
           <div>
@@ -31,61 +31,60 @@ export default function Contacto() {
             </p>
           </div>
 
-          {/* Buttons Section */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            {/* Contact Info */}
-            <div className="space-y-2">
-              <h3 className="font-bold text-lg">Contáctanos</h3>
-              <div className="flex flex-col sm:flex-row sm:space-x-2 space-y-2 sm:space-y-0">
-                <button className="min-w-max lg:w-56 h-12 px-4 py-2 text-sm font-medium text-white bg-blue-950 rounded-lg hover:bg-blue-900  focus:ring-4 focus:outline-none focus:ring-blue-300 flex items-center justify-start">
-                  {whatsappIcon}
-                  <a href="tel:+5213338521229" className="ml-2 text-white">
-                    +52 1 33 3852 1229
-                  </a>
-                </button>
+          {/* Contact Info */}
+          <div>
+            <h3 className="font-bold text-lg">Contáctanos</h3>
+            <ul className="space-y-2 pl-4">
+              <li className="flex items-center text-blue-950">
+                <span className="w-6 h-6 mr-2">{whatsappIcon}</span>
+                <a href="tel:+5213338521229" className="text-blue-950">
+                  +52 1 33 3852 1229
+                </a>
+              </li>
+              <li className="flex items-center text-blue-950">
+                <span className="w-6 h-6 mr-2">{whatsappIcon}</span>
+                <a href="tel:+5213321541205" className="text-blue-950">
+                  +52 1 33 2154 1205
+                </a>
+              </li>
+              <li className="flex items-center text-blue-950">
+                <span className="w-6 h-6 mr-2">{phoneIcon}</span>
+                <span>(33) 3852 1229</span>
+              </li>
+            </ul>
+          </div>
 
-                <button className="min-w-max lg:w-56 h-12 px-4 py-2 text-sm font-medium text-white bg-blue-950 rounded-lg hover:bg-blue-900  focus:ring-4 focus:outline-none focus:ring-blue-300 flex items-center justify-start">
-                  {whatsappIcon}
-                  <a href="tel:+5213321541205" className="ml-2 text-white">
-                    +52 1 33 21541205
-                  </a>
-                </button>
+          {/* Social Media */}
+          <div>
+            <h3 className="font-bold text-lg">Redes sociales</h3>
+            <ul className="space-y-2 pl-4">
+              <li className="flex items-center text-blue-950">
+                <span className="w-6 h-6 mr-2">{facebookIcon}</span>
+                <span>Facebook</span>
+              </li>
+              <li className="flex items-center text-blue-950">
+                <span className="w-6 h-6 mr-2">{instagramIcon}</span>
+                <span>Instagram</span>
+              </li>
+            </ul>
+          </div>
 
-                <button className="min-w-max lg:w-56 h-12 px-4 py-2 text-sm font-medium text-white bg-blue-950 rounded-lg hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 flex items-center justify-start">
-                  {phoneIcon}
-                  <span className="ml-2">(33) 3852 1229</span>
-                </button>
-              </div>
-
-            {/* Social Media */}
-            <div className="space-y-4">
-              <h3 className="font-bold text-lg">Redes sociales</h3>
-              <div className="flex flex-col sm:flex-row sm:space-x-2 space-y-2 sm:space-y-0">
-                <button className="w-full lg:w-48 h-12 px-4 py-2 text-sm font-medium text-white bg-blue-950 rounded-lg hover:bg-blue-900  focus:ring-4 focus:outline-none focus:ring-blue-300 flex items-center justify-start">
-                  {facebookIcon}
-                  <span className="ml-2">Facebook</span>
-                </button>
-
-                <button className="w-full lg:w-48 h-12 px-4 py-2 text-sm font-medium text-white bg-blue-950 rounded-lg hover:bg-blue-900  focus:ring-4 focus:outline-none focus:ring-blue-300 flex items-center justify-start">
-                  {instagramIcon}
-                  <span className="ml-2">Instagram</span>
-                </button>
-              </div>
-            </div>
-
-              <h3 className="font-bold text-lg mt-4">Correo</h3>
-              <div>
-                <button className="w-full lg:w-64 h-12 px-4 py-2 text-sm font-medium text-white bg-blue-950 rounded-lg hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 flex items-center justify-start">
-                  {contactIcon}
-                  <a href="mailto:contacto@proactible.com" className="ml-2 text-white">
-                    contacto@proactible.com
-                  </a>
-                </button>
-              </div>
-            </div>
+          {/* Email */}
+          <div>
+            <h3 className="font-bold text-lg">Correo</h3>
+            <ul className="pl-4">
+              <li className="flex items-center text-blue-950">
+                <span className="w-6 h-6 mr-2">{contactIcon}</span>
+                <a href="mailto:contacto@proactible.com" className="text-blue-950">
+                  contacto@proactible.com
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
   );
 }
+
+
