@@ -1,4 +1,5 @@
 import post1 from "../../assets/images/images/gallery/post1.jpeg"
+import rehabilitacion from "../../assets/images/images/pagina_inicio/rehabilitacion.jpg";
 import { whatsappIcon } from "../../assets/iconPaths.jsx";
 import { WHATSAPP_LINK } from "../../assets/whatsapp";
 
@@ -41,9 +42,9 @@ export default function Rehabilitacion() {
         {/* Column for Image */}
         <div className="w-full md:w-3/5 p-4">
           <img
-            src={post1}
+            src={rehabilitacion}
             alt="Rehabilitación Física"
-            className="w-full h-auto object-cover"
+            className="w-auto h-96"
           />
         </div>
       </div>

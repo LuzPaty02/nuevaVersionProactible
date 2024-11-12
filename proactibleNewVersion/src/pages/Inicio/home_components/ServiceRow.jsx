@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import protesis from "../../../assets/images/images/gallery/protesis.jpg";
+import protesis from "../../../assets/images/images/protesis/protesis_boton.jpg";
 import ortesis from "../../../assets/images/images/gallery/ortesis.jpg";
-import rehabilitacion from "../../../assets/images/images/pagina_inicio/rehabilitacion_boton.jpg";
+import rehabilitacion from "../../../assets/images/images/pagina_inicio/rehabilitacion_boton1.jpg";
 import ventaComponentesBoton from "../../../assets/images/images/pagina_inicio/ventaComponentesBoton.jpg";
 
 // Define mapping between text and paths
@@ -40,7 +40,7 @@ export default function ServiceRow() {
                 alt={text}
                 className="w-full h-full object-cover"
               />
-              <button className="absolute bottom-0 left-0 w-full bg-white text-black font-semibold px-6 py-3 rounded-b-xl transition-transform duration-300 transform active:scale-95 focus:outline-none hover:bg-blue-900 hover:bg-opacity-80 hover:text-white">
+              <button className="absolute bottom-0 left-0 w-full bg-white bg-opacity-50 text-black font-semibold px-6 py-3 rounded-b-xl transition-transform duration-300 transform active:scale-95 focus:outline-none hover:bg-blue-900 hover:bg-opacity-80 hover:text-white">
                 {text}
               </button>
             </div>

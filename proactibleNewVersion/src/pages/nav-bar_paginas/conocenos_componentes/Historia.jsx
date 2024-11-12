@@ -37,9 +37,12 @@ Aeroportuario del Pacífico y COPARMEX, entre otros.
             <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Released on December 2, 2021
             </time>
-            <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-              Get started with dozens of web components and interactive
-              elements.
+            <p class="text-base font-normal text-black">
+            Inició en 2014 como un proyecto escolar en el Laboratorio de
+Mecatrónica del Tecnológico de Monterrey, el cual más adelante se
+convertiría en una asociación civil con el objetivo de ayudar en la
+recuperación de la autonomía de personas con una amputación de
+miembro inferior. 
             </p>
           </div>
         </li>
@@ -65,9 +68,9 @@ Aeroportuario del Pacífico y COPARMEX, entre otros.
             <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Released on December 23, 2021
             </time>
-            <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-              Get started with dozens of web components and interactive
-              elements.
+            <p class="text-base font-normal text-black">
+            En el 2017 se fundó Proactible, empresa social enfocada en brindar servicios de fabricación de prótesis y rehabilitación física a un precio accesible para las personas con una
+            amputación de miembro inferior.
             </p>
           </div>
         </li>
@@ -93,9 +96,14 @@ Aeroportuario del Pacífico y COPARMEX, entre otros.
             <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Released on January 5, 2022
             </time>
-            <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-              Get started with dozens of web components and interactive
-              elements.
+            <p class="text-base font-normal text-black">
+            En el 2018, la empresa debutó en cadena nacional y con ello atrajo nuevos clientes y
+la oportunidad de atender a personas de otras entidades de la
+República. La organización ha sido acreedoras a diversos premios y
+reconocimientos como el Premio Jalisco al Emprendimiento por
+Gobierno del Estado, Exitus Shape Prize LATAM por Global Shapers y
+Exitus Capital, Premio a la Empresa con Alto Impacto Social por Grupo
+Aeroportuario del Pacífico y COPARMEX, entre otros.
             </p>
           </div>
         </li>
