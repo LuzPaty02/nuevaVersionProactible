@@ -9,9 +9,9 @@ export default function Equipo() {
       <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-20 justify-center items-center">
         {/* Protesistas */}
         <div className="flex flex-col justify-center items-center">
-          <div className="w-full h-40 sm:h-60 md:h-80 rounded-xl overflow-hidden">
+          <div className="w-full h-40 sm:h-60 md:h-80 rounded-xl overflow-hidden shadow-md">
             <img
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-left-top"
               src={Protesistas}
               alt="Protesistas"
             />
@@ -21,9 +21,9 @@ export default function Equipo() {
 
         {/* Fisios */}
         <div className="flex flex-col justify-center items-center">
-          <div className="w-full h-40 sm:h-60 md:h-80 rounded-xl overflow-hidden">
+          <div className="w-full h-40 sm:h-60 md:h-80 rounded-xl overflow-hidden shadow-md">
             <img
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-left-top"
               src={Fisios}
               alt="Fisioterapeutas"
             />
@@ -34,9 +34,9 @@ export default function Equipo() {
 
       {/* Second Row: Single Image Below */}
       <div className="mt-8 flex justify-center">
-        <div className="w-full h-40 sm:h-60 md:h-80 md:w-8/12 rounded-xl overflow-hidden">
+        <div className="w-full h-40 sm:h-60 md:h-80 md:w-8/12 rounded-xl overflow-hidden shadow-md">
           <img
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-left-top"
             src={Administracion}
             alt="Administracion"
           />

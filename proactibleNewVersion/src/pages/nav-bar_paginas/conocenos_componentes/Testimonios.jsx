@@ -1,108 +1,78 @@
+import VideoEmbed from "../impacto_componentes/VideoEmbed";
+
 export default function Testimonios() {
   return (
-    <div className="grid mb-8 rounded-lg  md:mb-12 md:grid-cols-2 bg-white">
-      <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e">
+    <div className="grid w-full rounded-lg md:mb-12 md:grid-cols-2 bg-white">
+      {/* First Testimonial */}
+      <figure className="flex flex-col items-center justify-center p-8 gap-6 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e">
+        <div className="w-full max-w-lg h-64">
+          <VideoEmbed />
+        </div>
         <blockquote
-          className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8"
+          className="max-w-2xl mx-auto mb-4 text-gray-500"
           aria-label="Testimonial from Bonnie Green"
         >
           <h3 className="text-lg font-semibold text-gray-900">
             Very easy this was to integrate
           </h3>
           <p className="my-4">
-            If you care for your time, I hands down would go with this."
+            If you care for your time, I hands down would go with this.
           </p>
         </blockquote>
-        <figcaption className="flex items-center justify-center">
-          <img
-            className="rounded-full w-9 h-9"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
-            alt="Bonnie Green profile picture"
-          />
-          <div className="space-y-0.5 font-medium text-left rtl:text-right ms-3">
-            <div>Bonnie Green</div>
-            <div className="text-sm text-gray-500">Developer at Open AI</div>
-          </div>
-        </figcaption>
       </figure>
-      <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 md:rounded-se-lg">
+
+      {/* Second Testimonial */}
+      <figure className="flex flex-col items-center justify-center p-8 gap-6 text-center bg-white border-b border-gray-200 md:rounded-t-none md:rounded-se-lg md:border-e">
+        <div className="w-full max-w-lg h-64">
+          <VideoEmbed />
+        </div>
         <blockquote
-          className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8"
-          aria-label="Testimonial from Roberta Casas"
+          className="max-w-2xl mx-auto mb-4 text-gray-500"
+          aria-label="Testimonial from another client"
         >
           <h3 className="text-lg font-semibold text-gray-900">
-            Solid foundation for any project
+            Seamless Experience
           </h3>
           <p className="my-4">
-            Designing with Figma components that can be easily translated to the
-            utility classes of Tailwind CSS is a huge timesaver!"
+            I’ve never been happier with the ease of collaboration.
           </p>
         </blockquote>
-        <figcaption className="flex items-center justify-center">
-          <img
-            className="rounded-full w-9 h-9"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png"
-            alt="Roberta Casas profile picture"
-          />
-          <div className="space-y-0.5 font-medium text-left rtl:text-right ms-3">
-            <div>Roberta Casas</div>
-            <div className="text-sm text-gray-500">
-              Lead designer at Dropbox
-            </div>
-          </div>
-        </figcaption>
       </figure>
-      <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 md:rounded-es-lg md:border-b-0 md:border-e">
+
+      {/* Third Testimonial */}
+      <figure className="flex flex-col items-center justify-center p-8 gap-6 text-center bg-white border-b border-gray-200 md:rounded-t-none md:rounded-ss-lg md:border-e">
+        <div className="w-full max-w-lg h-64">
+          <VideoEmbed />
+        </div>
         <blockquote
-          className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8"
-          aria-label="Testimonial from Jese Leos"
+          className="max-w-2xl mx-auto mb-4 text-gray-500"
+          aria-label="Testimonial from another client"
         >
           <h3 className="text-lg font-semibold text-gray-900">
-            Mindblowing workflow
+            Great Results
           </h3>
           <p className="my-4">
-            Aesthetically, the well designed components are beautiful and will
-            undoubtedly level up your next application."
+            The prototypes we built using this have been well received.
           </p>
         </blockquote>
-        <figcaption className="flex items-center justify-center">
-          <img
-            className="rounded-full w-9 h-9"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
-            alt="Jese Leos profile picture"
-          />
-          <div className="space-y-0.5 font-medium text-left rtl:text-right ms-3">
-            <div>Jese Leos</div>
-            <div className="text-sm text-gray-500">
-              Software Engineer at Facebook
-            </div>
-          </div>
-        </figcaption>
       </figure>
-      <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-se-lg">
+
+      {/* Fourth Testimonial */}
+      <figure className="flex flex-col items-center justify-center p-8 gap-6 text-center bg-white border-b border-gray-200 md:rounded-t-none md:rounded-ss-lg md:border-e">
+        <div className="w-full max-w-lg h-64">
+          <VideoEmbed />
+        </div>
         <blockquote
-          className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8"
-          aria-label="Testimonial from Joseph McFall"
+          className="max-w-2xl mx-auto mb-4 text-gray-500"
+          aria-label="Testimonial from another client"
         >
           <h3 className="text-lg font-semibold text-gray-900">
-            Efficient Collaborating
+            Great Results
           </h3>
           <p className="my-4">
-            You have many examples that can be used to create a fast prototype
-            for your team."
+            The prototypes we built using this have been well received.
           </p>
         </blockquote>
-        <figcaption className="flex items-center justify-center">
-          <img
-            className="rounded-full w-9 h-9"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png"
-            alt="Joseph McFall profile picture"
-          />
-          <div className="space-y-0.5 font-medium text-left rtl:text-right ms-3">
-            <div>Joseph McFall</div>
-            <div className="text-sm text-gray-500">CTO at Google</div>
-          </div>
-        </figcaption>
       </figure>
     </div>
   );
