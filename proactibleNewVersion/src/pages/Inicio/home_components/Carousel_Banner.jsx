@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import Carreraproactible1 from "../../../assets/images/images/pagina_inicio/Carreraproactible1.jpg";
-import protesis from "../../../assets/images/images/gallery/protesis.jpg";
+import CarreraProactible1 from "../../../assets/images/images/pagina_inicio/carrousel/Carreraproactible1.jpg";
+import protesis from "../../../assets/images/images/protesis/protesis_boton.jpg";
 
 export default function Carousel_Banner() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
-    { src: Carreraproactible1, alt: "Carreraproactible1" },
+    { src: CarreraProactible1, alt: "Carreraproactible1" },
     { src: protesis, alt: "protesis" },
   ];
 

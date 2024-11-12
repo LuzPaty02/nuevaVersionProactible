@@ -1,20 +1,23 @@
-import post1 from "../../assets/images/images/gallery/post1.jpeg"
+import rehabilitacion1 from "../../assets/images/images/gallery/rehabilitacion1.jpg";
 import rehabilitacion from "../../assets/images/images/pagina_inicio/rehabilitacion.jpg";
 import { whatsappIcon } from "../../assets/iconPaths.jsx";
 import { WHATSAPP_LINK } from "../../assets/whatsapp";
-
 export default function Rehabilitacion() {
   return (
-    <div className="flex flex-col items-center justify-start py-8">
-      <h2 className="text-4xl md:text-6xl font-normal text-blue p-2 font-serif">
+    <div className="flex flex-col items-center justify-start py-12 px-8 bg-gray-50">
+      {/* Title Section */}
+      <h2 className="text-4xl md:text-5xl font-serif text-blue text-center mb-12">
         Rehabilitación Física
       </h2>
-      <div className="w-full max-w-7xl p-4 flex flex-col md:flex-row">
-        {/* Column for Text */}
-        <div className="w-full md:w-3/5 p-4">
 
-          <p className="mt-4 text-lg">Valoración física incluye la evaluación de:</p>
-          <ul className="mt-2 list-disc list-inside text-lg">
+      {/* First Section */}
+      <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-12 mb-12 px-4">
+        {/* Text Column */}
+        <div className="space-y-6 md:p-8">
+          <p className="text-lg leading-relaxed">
+            Valoración física incluye la evaluación de:
+          </p>
+          <ul className="list-disc list-inside text-lg space-y-2">
             <li>Muñón</li>
             <li>Cicatriz</li>
             <li>Sensibilidad</li>
@@ -23,57 +26,55 @@ export default function Rehabilitacion() {
             <li>Fuerza</li>
             <li>Equilibrio</li>
           </ul>
-          <p className="mt-4 text-lg">
+          <p className="text-lg leading-relaxed mt-4">
             El objetivo es crear un plan de rehabilitación física personalizado.
           </p>
-          {/* Centered Button */}
-          <div className="w-full flex justify-center items-center mt-6"> {/* Centered on all screen sizes */}
-            <button 
-              className="bg-green-500 text-white font-bold py-2 px-4 rounded-full border-none transition-transform transform hover:scale-105 ease-in-out duration-300 text-xs"
-            >
-              <a href={WHATSAPP_LINK} className="flex items-center justify-center">
-                {whatsappIcon}
-                <span className="ml-1 text-xs md:text-sm">¡Agenda Gratis Aquí!</span>
-              </a>
-            </button>
-          </div>
         </div>
 
-        {/* Column for Image */}
-        <div className="w-full md:w-3/5 p-4">
+        {/* Image Column */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <img
             src={rehabilitacion}
             alt="Rehabilitación Física"
-            className="w-auto h-96"
+            className="w-full h-full md:h-96 object-cover rounded-lg shadow-md"
+          />
+          <img
+            src={rehabilitacion1}
+            alt="Rehabilitación Física"
+            className="hidden md:block w-full h-48 md:h-96 object-cover rounded-lg shadow-md"
           />
         </div>
       </div>
 
-      <div className="w-full max-w-7xl p-4 flex flex-col md:flex-row">
-        {/* Column 1 - Rehabilitación Preprotésica */}
-        <div className="w-full md:w-1/2 p-4">
-          <h3 className="text-2xl md:text-4xl font-normal text-blue p-2 font-serif">
+      {/* Button */}
+      <div className="flex justify-center mt-6">
+        <button className="bg-green-600 text-white font-bold py-3 px-6 mb-8 rounded-full shadow-md transition-transform transform hover:scale-105 ease-in-out duration-300">
+          <a href={WHATSAPP_LINK} className="flex items-center">
+            {whatsappIcon}
+            <span className="ml-2">¡Agenda Gratis Aquí!</span>
+          </a>
+        </button>
+      </div>
+
+      {/* Second Section */}
+      <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-10">
+        {/* Rehabilitación Preprotésica */}
+        <div className="p-6 bg-white rounded-lg shadow-md">
+          <h3 className="text-2xl md:text-3xl font-serif text-blue mb-4">
             Rehabilitación Preprotésica
           </h3>
-          <p className="mt-4 text-lg">
-            Nos dedicamos a preparar y fortalecer las áreas del cuerpo necesarias
-            para el uso eficaz de la prótesis. Mejoramos el equilibrio, la
-            propiocepción, aumentamos la fuerza, corregimos posturas, y
-            disminuimos contracturas. Trabajamos con el dolor y la sensibilidad
-            en caso necesario, facilitando los traslados autónomos.
+          <p className="text-lg leading-relaxed p-2">
+            Nos dedicamos a preparar y fortalecer las áreas del cuerpo necesarias para el uso eficaz de la prótesis. Mejoramos el equilibrio, la propiocepción, aumentamos la fuerza, corregimos posturas, y disminuimos contracturas. Trabajamos con el dolor y la sensibilidad en caso necesario, facilitando los traslados autónomos.
           </p>
         </div>
 
-        {/* Column 2 - Rehabilitación Postprotésica */}
-        <div className="w-full md:w-1/2 p-4">
-          <h3 className="text-2xl md:text-4xl font-normal text-blue p-2 font-serif">
+        {/* Rehabilitación Postprotésica */}
+        <div className="p-6 bg-white rounded-lg shadow-md">
+          <h3 className="text-2xl md:text-3xl font-serif text-blue mb-4">
             Rehabilitación Postprotésica
           </h3>
-          <p className="mt-4 text-lg">
-            En este proceso nos enfocamos en la reeducación de la marcha,
-            reducción de errores posturales, y adquisición de confianza para
-            realizar actividades diarias de manera autónoma. El número de
-            sesiones se determina durante la valoración inicial.
+          <p className="text-lg leading-relaxed p-2">
+            En este proceso nos enfocamos en la reeducación de la marcha, reducción de errores posturales, y adquisición de confianza para realizar actividades diarias de manera autónoma. El número de sesiones se determina durante la valoración inicial.
           </p>
         </div>
       </div>

@@ -8,7 +8,7 @@ import Contacto from "./home_components/Contacto";
 
 export default function Home() {
     return (
-        <>
+        <><div className="px-8">
             <Banner />
             <Nosotros />
             <ServiceRow />
@@ -19,6 +19,7 @@ export default function Home() {
             <DataCounter />
             {/* <Map />  */}
             <Contacto/>
+        </div>
         </>
     );
 }

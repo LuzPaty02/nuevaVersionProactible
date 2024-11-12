@@ -7,7 +7,7 @@ import { WHATSAPP_LINK } from "../../assets/whatsapp";
 
 export default function Protesis() {
   return (
-    <div className="flex flex-col items-center justify-start py-8 px-4">
+    <div className="flex flex-col items-center justify-start py-8 px-8 bg-gray-50">
       <div className="w-full max-w-7xl mx-auto space-y-8">
         {/* First Section */}
         <div className="flex flex-col md:flex-row items-stretch gap-6">
@@ -54,7 +54,7 @@ export default function Protesis() {
         {/* Second Section */}
         <div className="flex flex-col-reverse md:flex-row items-stretch gap-3">
           {/* Text */}
-          <div className="w-full md:w-2/3 flex flex-col justify-center md:bg-slate-100 md:bg-opacity-40 md:shadow-md md:p-10 md:rounded-l-lg">
+          <div className="w-full md:w-2/3 flex flex-col justify-center md:bg-white md:shadow-md md:p-10 md:rounded-l-lg">
             <h3 className="text-3xl font-medium font-serif text-blue mb-2">
               Amputación transtibial
             </h3>
@@ -100,7 +100,7 @@ export default function Protesis() {
         {/* Fourth Section */}
         <div className="flex flex-col-reverse md:flex-row items-stretch gap-3">
           {/* Text */}
-          <div className="w-full md:w-2/3 flex flex-col justify-center md:bg-slate-100 md:bg-opacity-40 md:shadow-md md:p-10 md:rounded-l-lg">
+          <div className="w-full md:w-2/3 flex flex-col justify-center md:bg-white md:shadow-md md:p-10 md:rounded-l-lg">
             <h3 className="text-3xl font-medium font-serif text-blue mb-2">
               Bilateral
             </h3>
