@@ -17,8 +17,8 @@ export default function Testimonios_card() {
               Testimonios
               <span className="ml-2">{testimoniosIcon}</span>
             </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise
+            <p className="font-normal text-gray-500">
+              Conoce <span className="font-semibold text-blue">Proactible</span> a través de las  <span className="font-semibold text-gray-600"> experiencias de nuestros pacientes</span>.
             </p>
           </div>
           <div className="flex items-end justify-end mt-auto">

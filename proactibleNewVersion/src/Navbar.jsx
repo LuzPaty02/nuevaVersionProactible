@@ -59,6 +59,15 @@ export default function Navbar() {
     setIsSidebarOpen(false); // Close the sidebar on location change
   }, [location]);
 
+  useEffect(() => {
+    // Close the sidebar on location change
+    setIsSidebarOpen(false);
+  
+    // Scroll to the top on navigation
+    window.scrollTo(0, 0);
+  }, [location]);
+  
+
   return (
     <nav className="bg-white shadow-lg p-4 fixed top-0 left-0 w-full z-50 h-16">
       <div className="container mx-auto flex items-center justify-between h-full relative">

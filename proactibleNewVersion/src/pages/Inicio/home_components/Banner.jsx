@@ -9,8 +9,8 @@ export default function Banner() {
     <div id="home" className="bg-white h-auto flex flex-col md:flex-row">
       <div className="flex flex-col md:flex-row flex-1">
         {/* Left Side */}
-        <div className="bg-white flex-1 flex flex-col items-center justify-center text-center md:px-6 md:py-12">
-          <div className="bg-white mt-12 md:mt-16 mb-2 md:mb-4 md:p-4">
+        <div className="bg-white flex-1 flex flex-col items-center justify-center text-center md:px-6 md:pt-12">
+          <div className="bg-white mt-12 md:mt-5 mb-2 md:mb-4 md:p-4">
             <h1 className="font-serif text-4xl md:text-6xl font-bold text-blue rounded-lg max-w-full">
               <span className="inline md:hidden">
                 Laboratorio de prótesis y órtesis

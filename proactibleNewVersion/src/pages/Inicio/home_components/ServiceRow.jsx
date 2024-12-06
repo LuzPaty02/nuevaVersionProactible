@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import protesis from "../../../assets/images/images/protesis/protesis_boton.jpg";
-import ortesis from "../../../assets/images/images/gallery/ortesis.jpg";
+import ortesis from "../../../assets/images/images/ortesis/boton_ortesis.jpg";
 import rehabilitacion from "../../../assets/images/images/pagina_inicio/rehabilitacion_boton1.jpg";
 import ventaComponentesBoton from "../../../assets/images/images/pagina_inicio/ventaComponentesBoton.jpg";
 
@@ -34,13 +34,13 @@ export default function ServiceRow() {
             to={path}
             className="hidden lg:block w-full h-auto transition-transform duration-300 transform hover:scale-105 ease-in-out"
           >
-            <div className="relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 rounded-lg overflow-hidden shadow-lg">
               <img
                 src={imageMapping[path]} // Use the imageMapping to get the correct image
                 alt={text}
                 className="w-full h-full object-cover"
               />
-              <button className="absolute bottom-0 left-0 w-full bg-white bg-opacity-50 text-black font-semibold px-6 py-3 rounded-b-xl transition-transform duration-300 transform active:scale-95 focus:outline-none hover:bg-blue-900 hover:bg-opacity-80 hover:text-white">
+              <button className="absolute bottom-0 left-0 w-full bg-white bg-opacity-50 text-black font-semibold px-6 py-3 rounded-b-lg transition-transform duration-300 transform active:scale-95 focus:outline-none hover:bg-blue-900 hover:bg-opacity-80 hover:text-white">
                 {text}
               </button>
             </div>

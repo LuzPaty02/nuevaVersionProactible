@@ -1,17 +1,18 @@
-import ortesisImage from '../../assets/images/images/gallery/post.jpeg'; // Assuming the image path
+import portada_ortesis from "../../assets/images/images/ortesis/portada_ortesis.jpg";
 import { whatsappIcon } from '../../assets/iconPaths.jsx';
 import { WHATSAPP_LINK } from "../../assets/whatsapp";
+import Footer from "../../Footer.jsx";
 
 export default function Ortesis() {
   return (
-    <div className="flex flex-col items-center justify-start py-8">
+    <div className="flex flex-col items-center justify-start p-8">
       <div className="flex flex-col md:flex-row w-full max-w-7xl mx-auto">
         {/* Column for Image */}
-        <div className="w-full md:w-3/5 p-4 md:mr-6"> 
+        <div className="w-full md:w-1/2 p-4 md:mr-6 "> 
           <img
-            src={ortesisImage}
+            src={portada_ortesis}
             alt="Ortesis"
-            className="w-full h-auto object-cover"
+            className="w-full h-auto object-cover rounded-xl"
           />
         </div>
         
@@ -30,8 +31,7 @@ export default function Ortesis() {
         </div>
       </div>
 
-      {/* Button Below Everything */}
-      <div className="w-full flex justify-center md:justify-end pr-20 mt-4"> {/* Centered on mobile, right-aligned on larger screens */}
+      <div className="w-full flex justify-center md:justify-end pr-20 "> {/* Centered on mobile, right-aligned on larger screens */}
         <button 
           className="bg-green-500 text-white font-bold py-2 px-4 rounded-full border-none transition-transform transform hover:scale-105 ease-in-out duration-300 text-xs"
         >
@@ -41,6 +41,7 @@ export default function Ortesis() {
           </a>
         </button>
       </div>
+      {/* Button Below Everything */}
     </div>
   );
 }

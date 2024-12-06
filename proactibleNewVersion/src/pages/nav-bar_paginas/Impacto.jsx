@@ -28,7 +28,7 @@ export default function Impacto() {
 
         {/* Second text (fourth on mobile view) */}
         <div className="md:row-start-2 md:col-start-1 ">
-          <VideoEmbed />
+          <VideoEmbed url="https://www.youtube.com/embed/FYLRWGH0eO8" />
         </div>
       </div>
       <div></div>

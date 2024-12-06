@@ -18,8 +18,8 @@ export default function Notas_Card() {
               <span className="ml-2">{newspaperIcon}</span>
             </h5>
           </a>
-          <p className="font-normal text-gray-700 dark:text-gray-400 mb-3">
-            Conoce sobre nuestras noticias etc
+          <p className="font-normal text-gray-500 mb-3">
+            Conoce sobre nuestras apariciones en el <span className="font-semibold text-gray-600">Foro Ecónomico mundial, El Informador, Mural</span> y más. 
           </p>
         </div>
         <div className="flex items-end justify-end mt-auto">
