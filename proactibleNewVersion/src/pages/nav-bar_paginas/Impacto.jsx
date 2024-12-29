@@ -27,7 +27,7 @@ export default function Impacto() {
           <div className="md:col-span-1 md:m-4">
             <VideoEmbed url="https://www.youtube.com/embed/FYLRWGH0eO8" />
             <p className="mt-2 p-4 border border-gray-200 rounded-xl bg-white shadow-md">
-              uwu
+              texto
             </p>
           </div>
         </div>

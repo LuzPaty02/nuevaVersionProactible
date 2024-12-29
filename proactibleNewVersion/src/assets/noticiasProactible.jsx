@@ -1,8 +1,8 @@
-import articulo_nature from './images/images/noticias_articulos/articulo_nature.jpg';
-import world_forum from './images/images/noticias_articulos/world_forum.jpg';
-import informador from './images/images/noticias_articulos/informador.jpg';
-import crea_asociacion from './images/images/noticias_articulos/crea_as.jpg';
-import mural from './images/images/noticias_articulos/mural.jpg';
+import articulo_nature from './images/noticias_articulos/articulo_nature.jpg';
+import world_forum from './images/noticias_articulos/world_forum.jpg';
+import informador from './images/noticias_articulos/informador.jpg';
+import crea_asociacion from './images/noticias_articulos/crea_as.jpg';
+import mural from './images/noticias_articulos/mural.jpg';
 
 
 const noticiasProactible = [

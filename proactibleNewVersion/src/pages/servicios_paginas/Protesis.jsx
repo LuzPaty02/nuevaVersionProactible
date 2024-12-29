@@ -1,15 +1,15 @@
-import protesis_portada from "../../assets/images/images/protesis/protesis_portada.jpg";
-import protesis_transfemoral from "../../assets/images/images/protesis/protesis_transfemoral.jpg";
-import protesis_transtibial from "../../assets/images/images/protesis/protesis_transtibial.jpg";
-import protesis_bilateral from "../../assets/images/images/protesis/protesis_bilateral.jpg";
+import protesis_portada from "../../assets/images/protesis/protesis_portada.jpg";
+import protesis_transfemoral from "../../assets/images/protesis/protesis_transfemoral.jpg";
+import protesis_transtibial from "../../assets/images/protesis/protesis_transtibial.jpg";
+import protesis_bilateral from "../../assets/images/protesis/protesis_bilateral.jpg";
 import { whatsappIcon } from "../../assets/iconPaths.jsx";
 import { WHATSAPP_LINK } from "../../assets/whatsapp";
 import Footer from "../../Footer.jsx";
 
 export default function Protesis() {
   return (
-    <div>
-    <div className="flex flex-col items-center justify-start py-8 px-8 bg-gray-50">
+    <div className="bg-gray-50">
+    <div className="flex flex-col items-center justify-start py-8 px-8 ">
       <div className="w-full max-w-7xl mx-auto space-y-8">
         {/* First Section */}
         <div className="flex flex-col md:flex-row items-stretch gap-6">

@@ -1,4 +1,4 @@
-import copaImage from "../../../assets/images/images/impacto/copa.jpg";
+import copaImage from "../../../assets/images/impacto/copa.jpg";
 
 export default function Copa() {
   return (

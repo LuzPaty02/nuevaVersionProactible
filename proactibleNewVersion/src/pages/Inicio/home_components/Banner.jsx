@@ -1,5 +1,4 @@
 import React from "react";
-// import Carreraproactible1 from "../../../assets/images/images/Carreraproactible1.jpg";
 import { WHATSAPP_LINK } from "../../../assets/whatsapp";
 import { whatsappIcon } from "../../../assets/iconPaths";
 import Carousel_Banner from "./Carousel_Banner";

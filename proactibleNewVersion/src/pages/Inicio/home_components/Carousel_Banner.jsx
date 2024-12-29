@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import CarreraProactible1 from "../../../assets/images/images/pagina_inicio/carrousel/Carreraproactible1.jpg";
-import protesis from "../../../assets/images/images/protesis/protesis_boton.jpg";
+import CarreraProactible1 from "../../../assets/images/pagina_inicio/carrousel/Carreraproactible1.jpg";
+import protesis from "../../../assets/images/protesis/protesis_boton.jpg";
 
 export default function Carousel_Banner() {
   const [currentSlide, setCurrentSlide] = useState(0);

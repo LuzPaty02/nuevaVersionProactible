@@ -1,6 +1,6 @@
-import carlos from "../../../assets/images/images/team/carlos.jpg";
-import paulina from "../../../assets/images/images/team/paulina.jpg";
-import rigoberto from "../../../assets/images/images/team/rigoberto.jpg";
+import carlos from "../../../assets/images/team/carlos.jpg";
+import paulina from "../../../assets/images/team/paulina.jpg";
+import rigoberto from "../../../assets/images/team/rigoberto.jpg";
 
 export default function Staff() {
   return (
