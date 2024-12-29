@@ -6,7 +6,7 @@ import {
   conocenosIcon,
   impactoIcon
 } from "./assets/iconPaths";
-import logo1 from "./assets/images/images/logo1.png";
+import logo2 from "./assets/images/images/logo2.jpg";
 import { WHATSAPP_LINK } from "./assets/whatsapp";
 
 export default function Navbar() {
@@ -75,7 +75,7 @@ export default function Navbar() {
         {/* Logo on the left */}
         <div className="flex items-center flex-none">
           <a href="/" className="flex items-center">
-            <img src={logo1} alt="logo" className="w-44 h-fixed ml-2 flex-shrink-0" />
+            <img src={logo2} alt="logo" className="w-44 h-fixed ml-2 flex-shrink-0" />
           </a>
         </div>
 
@@ -103,7 +103,7 @@ export default function Navbar() {
                 className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200"
               >
                 {conocenosIcon}
-                <span className="ml-2 text-base">Conocenos</span>
+                <span className="ml-2 text-base">Conócenos</span>
               </Link>
             </li>
             {/* Impacto */}

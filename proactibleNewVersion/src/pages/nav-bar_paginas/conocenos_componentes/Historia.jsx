@@ -5,36 +5,33 @@ export default function Historia() {
       {/* Text Column */}
       <div className="text-lg leading-relaxed md:w-2/3">
         <p className="mb-4">
-          Inició en 2014 como un proyecto escolar en el Laboratorio de
-          Mecatrónica del Tecnológico de Monterrey, el cual más adelante se
-          convertiría en una asociación civil con el objetivo de ayudar en la
-          recuperación de la autonomía de personas con una amputación de miembro
-          inferior.
+          Iniciamos hace 10 años como un proyecto universitario del Tecnológico
+          de Monterrey en Campus Guadalajara, el cual más adelante se
+          convertiría en un centro de atención especializado para que las
+          personas con amputación de miembro inferior puedan tener acceso a
+          servicios de fabricación de prótesis y rehabilitación física de
+          calidad para volver a caminar.
         </p>
         <p className="mb-4">
-          En el 2017 se fundó <strong className="text-blue">Proactible</strong>,
-          una empresa social enfocada en brindar servicios de fabricación de
-          prótesis y rehabilitación física a un precio accesible para personas
-          con una amputación de miembro inferior.
+          Somos una empresa social en salud, nuestra visión es duplicar la
+          atención de calidad para la recuperación de la autonomía de las
+          personas con amputación en México. Contamos con Distintivo de Buenas
+          Prácticas Laborales, Pro Integridad, Pactemos por la Igualdad,
+          Empresas por la Igualdad, Empresa Socialmente Responsable y Empresa
+          Comprometida con los Derechos Humanos.
         </p>
 
         <p className="mb-4">
-          En el 2018, la empresa debutó en cadena nacional, atrayendo nuevos
-          clientes y la oportunidad de atender a personas de otras entidades de
-          la República. A lo largo de su trayectoria, Proactible ha recibido
-          múltiples premios y reconocimientos, como el{" "}
-          <span className="font-semibold text-blue">
-            Premio Jalisco al Emprendimiento
-          </span>{" "}
-          otorgado por el Gobierno del Estado, el{" "}
-          <span className="font-semibold text-blue">
-            Exitus Shape Prize LATAM
-          </span>{" "}
-          por Global Shapers y Exitus Capital, y el{" "}
-          <span className="font-semibold text-blue">
-            Premio a la Empresa con Alto Impacto Social
-          </span>{" "}
-          otorgado por Grupo Aeroportuario del Pacífico y COPARMEX.
+          A lo largo de nuestra trayectoria hemos tenido múltiples premios y
+          reconocimientos como el {" "}
+          <span className="font-semibold text-blue">Premio Jalisco al Emprendimiento </span>{" "} otorgado por
+          el Gobierno del Estado, el {" "}
+          <span className="font-semibold text-blue"> Exitus Shape Prize LATAM   </span>{" "} por Global Shapers
+          y Exitus Capital, y el {" "}
+          <span className="font-semibold text-blue"> Premio a la Empresa con Alto Impacto Social   </span>{" "}
+          otorgado por Grupo Aeroportuario del Pacífico y COPARMEX, las 140
+          Empresas de Impacto por Fomento Social Banamex e Impact
+          Hub, entre otros. 
         </p>
       </div>
 
@@ -49,4 +46,3 @@ export default function Historia() {
     </div>
   );
 }
-

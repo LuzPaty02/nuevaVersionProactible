@@ -2,35 +2,48 @@ import copaImage from "../../../assets/images/images/impacto/copa.jpg";
 
 export default function Copa() {
   return (
-    <section className="p-6 rounded-xl shadow-md">
+    <section >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Text Section */}
         <article
-          className="col-span-1 flex flex-col items-center justify-center text-center"
-          aria-label="Copa Event Details"
+          className="col-span-1 flex flex-col justify-center"
+          aria-label="Copa and Proactible Event Details"
         >
-          <h2 className="px-4 text-4xl md:text-6xl font-serif font-medium text-blue">
-            Copa
-          </h2>
-          <div className="p-6 space-y-12">
-            <p className="mt-4 px-6 md:px-10 text-gray-700 leading-relaxed">
-              Evento enfocado en la Comunidad de Personas con Amputación en
-              México, al cual concebimos como COPA. Con el fin de sensibilizar
-              sobre la situación de las personas con amputación de miembro
-              inferior en México y las diferentes alternativas existentes para
-              una adecuada recuperación de la autonomía.
+          <div className="w-full py-4 md:px-8 md:bg-white md:shadow-md rounded-lg mt-8">
+            <h3 className=" text-4xl md:text-4xl font-serif font-medium text-blue mb-4 text-center">
+              Un paso adelante
+            </h3>
+            <p className="mt-2 md:px-10 leading-relaxed text-start">
+              Para facilitar el acceso a la atención de calidad con apoyos
+              económicos y en especie para que las personas puedan volver a
+              caminar mediante servicios de fabricación de prótesis, así como
+              rehabilitación física y acompañamiento psicológico.
             </p>
-            <div className="mt-12">
-              <h3 className="px-4 text-2xl md:text-4xl font-serif font-medium text-blue">
-                Proactible para la comunidad
-              </h3>
-              <p className="mt-2 px-6 md:px-10 text-gray-700 leading-relaxed">
-                Organización sin fines de lucro dedicada a dar acompañamiento a
-                las personas con discapacidad por amputación de miembro inferior
-                para que puedan volver a caminar, reinsertarse socialmente y
-                recuperar su autonomía.
-              </p>
-            </div>
+          </div>
+
+          <div className="w-full py-4 md:bg-white md:shadow-md rounded-lg mt-8">
+            <h2 className="text-4xl md:text-4xl font-serif font-medium text-blue mb-4 text-center">
+              Copa
+            </h2>
+            <p className="mt-4 md:px-10 leading-relaxed text-start">
+              Evento enfocado en la Comunidad de Personas con Amputación en
+              México. Con el fin de sensibilizar sobre la situación de las
+              personas con amputación de miembro inferior en México y las
+              diferentes alternativas existentes para una adecuada recuperación
+              de la autonomía.
+            </p>
+          </div>
+
+          <div className="w-full py-4 sm:px-8 md:bg-white md:shadow-md rounded-lg mt-8">
+            <h3 className="px-4 text-4xl md:text-4xl font-serif font-medium text-blue mb-4 text-center">
+              PIA
+            </h3>
+            <p className="mt-2 leading-relaxed text-start">
+              Asistente de soporte a través de WhatsApp en temas como
+              rehabilitación, primeros cuidados, acceso a fondos y apoyo
+              emocional para la comunidad de personas con amputación de miembro
+              inferior en México.
+            </p>
           </div>
         </article>
 
@@ -42,7 +55,7 @@ export default function Copa() {
           <img
             src={copaImage}
             alt="Copa Event illustration featuring community engagement"
-            className="w-2/3 md:w-full h-auto object-cover rounded-xl shadow-lg"
+            className="w-90% h-auto object-cover rounded-xl shadow-lg"
           />
         </div>
       </div>

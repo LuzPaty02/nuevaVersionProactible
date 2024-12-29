@@ -4,9 +4,11 @@ import protesis_transtibial from "../../assets/images/images/protesis/protesis_t
 import protesis_bilateral from "../../assets/images/images/protesis/protesis_bilateral.jpg";
 import { whatsappIcon } from "../../assets/iconPaths.jsx";
 import { WHATSAPP_LINK } from "../../assets/whatsapp";
+import Footer from "../../Footer.jsx";
 
 export default function Protesis() {
   return (
+    <div>
     <div className="flex flex-col items-center justify-start py-8 px-8 bg-gray-50">
       <div className="w-full max-w-7xl mx-auto space-y-8">
         {/* First Section */}
@@ -120,6 +122,8 @@ export default function Protesis() {
           </div>
         </div>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 }

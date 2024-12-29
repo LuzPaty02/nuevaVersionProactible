@@ -38,7 +38,7 @@ const noticiasProactible = [
       titulo: "Ayuda firma tapatía a volver a caminar",
       descripcion: "En entrevista, Carlos Calderón Cosío, director de Proactible, compartió que en el centro brindan atención personalizada para adaptar las prótesis al contexto de cada individuo, pero también para dar seguimiento y que sea asequible. Nota por Mural noticias.",
       fecha: "Enero 20, 2023",
-      url: "https://www.informador.mx/economia/Salud-Ayudan-a-dar-sus-primeros-pasos-a-personas-con-amputacion-de-piernas-20240217-0101.html",
+      url: "https://www.mural.com.mx/ayuda-firma-tapatia-a-volver-a-caminar/ar2538929",
       imagen: mural,
     },
   ];

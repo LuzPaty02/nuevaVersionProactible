@@ -13,7 +13,7 @@ const productData = [
       "Los beneficios que tiene el Liner Skeo Skinguard son los siguientes: Tiene partículas antibacterianas que ayudan a evitar que las bacterias se multipliquen y protegen el material de silicona. Cuenta con un mejor control del olor causado por las bacterias. La piel no es afectada por el aditivo antibacterial.P004",
     imagePath:
       "src/assets/images/images/venta_componentes_imgs/linear_skeo.png",
-      categoria: "Liner",
+    categoria: "Liner",
   },
   {
     titulo: "Liner ALPS superior performance",
@@ -21,7 +21,7 @@ const productData = [
       "Liner ALPS superior performance para amputación transtibial, disponible en varias tallas. NO INCLUYE ENVÍO. En caso de contar con el programa de garantía de Proactible se aplicará un 10% dedescuento.",
     imagePath:
       "src/assets/images/images/venta_componentes_imgs/Liner_ALPS_supPerformance.png",
-      categoria: "Liner",
+    categoria: "Liner",
   },
   {
     titulo: "Liner ComfortSil. Basic Streifeneider",
@@ -29,15 +29,16 @@ const productData = [
       "De silicona especialmente blanda de 3 mm. Comodidad óptima y agradable amortiguación. Tejido de punto de una sola pieza para facilitar el enrollado y desenrollado del liner. Matriz externa distal con tejido de punto de 10 cm, reduce el trazo distal. Franja vertical tejida en la parte delantera para una mejor orientación al vestirse. El control de rotación distal favorece a la conducción de la prótesis de pierna. Cuenta con descuento con garantía extendida.",
     imagePath:
       "src/assets/images/images/venta_componentes_imgs/Liner_ComfortSil.png",
-      categoria: "Liner",
+    categoria: "Liner",
   },
+
   {
     titulo: "Liner Iceross Seal In- Transfemoral",
     descripcion:
       "El liner Iceross Seal-In TF ofrece seguridad y libertad de movimiento para usuarios con amputación transfemoral y elevado nivel de actividad.Ya que cuenta con una resistente cubierta de tela que permite la expansión radial y una cómoda elasticidad",
     imagePath:
       "src/assets/images/images/venta_componentes_imgs/Liner_Iceross_Seal.png",
-      categoria: "Liner",
+    categoria: "Liner",
   },
   {
     titulo: "Rodilla 3R80",
@@ -121,6 +122,19 @@ const productData = [
       "Rodilla policéntrica. La rodilla 3R60 te permite caminar bien de nuevo, segurirdad potenciada, caminar por terrenos irregulares y pendientes, al igual que sentarse y arrodillarse relajadamente Su nivel de movilidad es de 2, 3. Peso corporal máx: 125kg",
     imagePath:
       "src/assets/images/images/venta_componentes_imgs/rodilla3R60.jpg",
+    categoria: "Rodilla",
+  },
+  {
+    titulo: "Pie Rush",
+    descripcion:
+      "El pie rush proporciona el movimiento de pie y tobillo más realista y receptivo disponible. Fabricado con un compuesto de vidrio de ingeniería avanzada, que es tres veces más flexible que la mayoría de las prótesis de pie convencionales.",
+    imagePath: "src/assets/images/images/venta_componentes_imgs/pie_rush.jpg",
+    categoria: "Pie",
+  },
+  {
+    titulo: "Rodilla 3I15",
+    descripcion:"La rodilla monocéntrica modular 3I15 tiene movilidad 1,2",
+    imagePath: "src/assets/images/images/venta_componentes_imgs/rodilla3I15.jpg",
     categoria: "Rodilla",
   },
 ];

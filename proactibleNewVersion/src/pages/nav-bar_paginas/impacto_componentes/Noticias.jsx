@@ -1,13 +1,25 @@
 import noticiasProactible from "../../../assets/noticiasProactible.jsx";
+import { useEffect } from "react";
 
 export default function Noticias() {
-  console.log("NoticiasProactible data:", noticiasProactible);
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const element = document.getElementById(hash.substring(1)); // Remove the "#" from hash
+      if (element) {
+        const offset = 80; // Adjust this value based on the height of your title or navbar
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({
+          top: elementPosition,
+          behavior: "smooth",
+        });
+      }
+    }
+  }, []); // Runs on component mount
 
   return (
-    <div
-      id="/Noticias"
-      className="m-4 p-6 border border-gray-200 rounded-xl bg-white shadow-md"
-    >
+    <div className="md:m-4 p-6 border border-gray-200 rounded-xl bg-white shadow-md">
       <time className="block text-xl font-semibold text-blue-600 mb-6 text-center sm:text-left">
         Noticias de Proactible
       </time>
@@ -21,7 +33,7 @@ export default function Noticias() {
               className="flex flex-col sm:flex-row items-center sm:items-start"
             >
               <img
-                className="w-40 h-40 sm:w-40 sm:h-40 mb-4 sm:mb-0 sm:me-4 object-cover rounded-md"
+                className="w-full h-auto sm:w-40 sm:h-40 mb-4 sm:mb-0 sm:me-4 object-cover rounded-md"
                 src={noticia.imagen}
                 alt={noticia.titulo}
                 onError={(e) => {
@@ -31,6 +43,7 @@ export default function Noticias() {
                   );
                 }}
               />
+
               <div className="flex flex-col text-start sm:text-left">
                 <h3 className="text-base font-semibold text-gray-800 ">
                   {noticia.titulo}

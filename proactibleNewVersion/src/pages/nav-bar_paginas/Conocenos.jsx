@@ -4,6 +4,7 @@ import Historia from "./conocenos_componentes/Historia";
 import Equipo from "./conocenos_componentes/Equipo.jsx";
 import Mision from "./conocenos_componentes/mision.jsx";
 import Propuesta from "./conocenos_componentes/propuesta.jsx";
+import Footer from "../../Footer.jsx";
 
 export default function Conocenos() {
   return (
@@ -33,7 +34,7 @@ export default function Conocenos() {
         </div>
         <div className="w-full md:w-1/2 flex flex-col">
           <h2 className="px-8 text-4xl mb-2 md:text-5xl font-normal text-blue font-serif text-center">
-            Nuestra Propuesta
+            Nuestra Visión
           </h2>
           <div className="p-8 md:bg-white md:shadow-md rounded-lg flex-1">
             <Propuesta />
@@ -66,6 +67,7 @@ export default function Conocenos() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

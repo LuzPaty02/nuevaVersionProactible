@@ -10,7 +10,7 @@ export default function Maps() {
         // Initialize the map
         const map = new google.maps.Map(mapRef.current, {
           center: { lat: 20.7295168, lng: -103.3697941 }, // Coordinates for address
-          zoom: 15, // Adjusted zoom level for a closer view
+          zoom: 15,
         });
 
         // Add a marker to the map

@@ -2,9 +2,11 @@ import rehabilitacion1 from "../../assets/images/images/gallery/rehabilitacion1.
 import rehabilitacion from "../../assets/images/images/pagina_inicio/rehabilitacion.jpg";
 import { whatsappIcon } from "../../assets/iconPaths.jsx";
 import { WHATSAPP_LINK } from "../../assets/whatsapp";
+import Footer from "../../Footer.jsx";
 export default function Rehabilitacion() {
   return (
-    <div className="flex flex-col items-center justify-start py-12 px-8 bg-gray-50">
+    <div className="bg-gray-50">
+    <div className="flex flex-col items-center justify-start py-12 px-8 ">
       {/* Title Section */}
       <h2 className="text-4xl md:text-5xl font-serif text-blue text-center mb-12">
         Rehabilitación Física
@@ -78,6 +80,8 @@ export default function Rehabilitacion() {
           </p>
         </div>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 }

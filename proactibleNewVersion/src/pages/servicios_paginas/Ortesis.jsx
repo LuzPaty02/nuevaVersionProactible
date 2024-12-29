@@ -5,6 +5,7 @@ import Footer from "../../Footer.jsx";
 
 export default function Ortesis() {
   return (
+    <div>
     <div className="flex flex-col items-center justify-start p-8">
       <div className="flex flex-col md:flex-row w-full max-w-7xl mx-auto">
         {/* Column for Image */}
@@ -42,6 +43,8 @@ export default function Ortesis() {
         </button>
       </div>
       {/* Button Below Everything */}
+    </div>
+      <Footer />
     </div>
   );
 }

@@ -77,7 +77,7 @@ export default function Chart() {
           fill="#fff"
           textAnchor="start"
           dominantBaseline="middle"
-          className="text-xs"
+          className="text-xs sm:text-base"
         >
           {`${value}%`}
         </text>
@@ -86,7 +86,7 @@ export default function Chart() {
   };
 
   return (
-    <ResponsiveContainer width="100%" height={300}>
+    <ResponsiveContainer width="100%" height={400}>
       <ComposedChart
         layout="vertical"
         data={data}

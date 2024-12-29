@@ -4,7 +4,7 @@ import Nosotros from "./home_components/Nosotros";
 import ServiceRow from "./home_components/ServiceRow";
 import DataCounter from "./home_components/DataCounter";
 import Notas_y_Testimonios from "./home_components/Notas_y_Testimonios";
-import Contacto from "./home_components/Contacto";
+import Contacto from "../../Footer";
 
 export default function Home() {
     return (
@@ -15,8 +15,8 @@ export default function Home() {
             <DataCounter />
             <Notas_y_Testimonios />
             {/* <Map />  */}
-            <Contacto/>
         </div>
+            <Contacto/>
         </>
     );
 }
