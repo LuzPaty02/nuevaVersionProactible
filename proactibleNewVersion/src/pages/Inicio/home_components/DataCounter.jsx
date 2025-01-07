@@ -8,7 +8,7 @@ export default function DataCounter() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        console.log("Is intersecting:", entry.isIntersecting); // Debugging visibility
+        // console.log("Is intersecting:", entry.isIntersecting); // Debugging visibility
         if (entry.isIntersecting) {
           setIsVisible(true); // Trigger the count when visible
         } else {

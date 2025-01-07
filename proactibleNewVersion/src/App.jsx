@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './Navbar'; // Your navbar
-import Home from './pages/Inicio/Home'; // Home page
+import Navbar from './Navbar'; 
+import Home from './pages/Inicio/Home'; 
 import Protesis from './pages/servicios_paginas/Protesis';
 import Ortesis from './pages/servicios_paginas/Ortesis';
 import Rehabilitacion from './pages/servicios_paginas/Rehabilitacion';

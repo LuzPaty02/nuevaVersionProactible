@@ -1,6 +1,9 @@
 import { newspaperIcon } from "../../../assets/iconPaths"; // Ensure this is either an SVG component or an SVG string
 import { Link } from "react-router-dom";
-export default function Notas_Card() {
+
+// Card with button to redirect to Noticias page
+
+export default function Noticias_Card() {
   return (
     <div className="max-w-full h-full bg-white border-gray-300 rounded-lg shadow-lg hover:bg-gray-100 flex flex-col ">
       <a href="#">

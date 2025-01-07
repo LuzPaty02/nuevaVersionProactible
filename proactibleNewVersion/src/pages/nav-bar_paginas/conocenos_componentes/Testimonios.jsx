@@ -1,4 +1,4 @@
-import VideoEmbed from "../impacto_componentes/VideoEmbed";
+import VideoEmbed from "../VideoEmbed.jsx";
 import videoData from "../../../assets/videoData.jsx";
 
 

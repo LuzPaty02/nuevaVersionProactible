@@ -8,13 +8,13 @@ import Footer from "../../Footer";
 
 export default function Home() {
     return (
-        <><div className="px-8">
+        <>
+        <div className="px-8">
             <Banner />
             <Nosotros />
             <ServiceRow />
             <DataCounter />
             <Notas_y_Testimonios />
-            {/* <Map />  */}
         </div>
             <Footer/>
         </>

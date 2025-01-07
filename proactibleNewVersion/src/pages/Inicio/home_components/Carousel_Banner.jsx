@@ -1,30 +1,31 @@
-import React, { useState } from "react";
-import CarreraProactible1 from "../../../assets/images/pagina_inicio/carrousel/Carreraproactible1.jpg";
+import React, { useState, useCallback } from "react";
+import CarreraProactible1_comp from "../../../assets/images/pagina_inicio/carrousel/Carreraproactible1_compW.webp";
 import protesis from "../../../assets/images/protesis/protesis_boton.jpg";
 
 export default function Carousel_Banner() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
-    { src: CarreraProactible1, alt: "Carreraproactible1" },
+    { src: CarreraProactible1_comp, alt: "CarreraProactible1_comp" },
     { src: protesis, alt: "protesis" },
   ];
 
-  const nextSlide = () => {
+  // Use `useCallback` to memoize navigation handlers for performance
+  const nextSlide = useCallback(() => {
     setCurrentSlide((prevSlide) =>
       prevSlide === slides.length - 1 ? 0 : prevSlide + 1
     );
-  };
+  }, [slides.length]);
 
-  const prevSlide = () => {
+  const prevSlide = useCallback(() => {
     setCurrentSlide((prevSlide) =>
       prevSlide === 0 ? slides.length - 1 : prevSlide - 1
     );
-  };
+  }, [slides.length]);
 
-  const setSlide = (index) => {
+  const setSlide = useCallback((index) => {
     setCurrentSlide(index);
-  };
+  }, []);
 
   return (
     <div id="default-carousel" className="relative w-full" data-carousel="slide">
@@ -34,13 +35,13 @@ export default function Carousel_Banner() {
           <div
             key={index}
             className={`duration-700 ease-in-out absolute inset-0 transition-opacity ${
-              index === currentSlide ? "opacity-100" : "opacity-0"
+              index === currentSlide ? "opacity-100" : "opacity-0 pointer-events-none"
             }`}
-            style={{ transition: "opacity 0.7s ease-in-out" }}
           >
             <img
               src={slide.src}
               alt={slide.alt}
+              loading="lazy" // Lazy load images to improve performance
               className="absolute block w-full h-full object-cover"
             />
           </div>

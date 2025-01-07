@@ -1,5 +1,5 @@
 import React from "react";
-import VideoEmbed from "./impacto_componentes/VideoEmbed.jsx";
+import VideoEmbed from "./VideoEmbed.jsx";
 import Chart from "./impacto_componentes/Chart.jsx";
 import Noticias from "./impacto_componentes/Noticias.jsx";
 import Copa from "./impacto_componentes/Copa.jsx";
@@ -27,7 +27,7 @@ export default function Impacto() {
           <div className="md:col-span-1 md:m-4">
             <VideoEmbed url="https://www.youtube.com/embed/FYLRWGH0eO8" />
             <p className="mt-2 p-4 border border-gray-200 rounded-xl bg-white shadow-md">
-              texto
+            Te compartimos un poco del trabajo que realizamos en proactible, cómo iniciamos y cómo hemos ido evolucionando a fin de brindar lo mejor para la sociedad y nuestros pacientes.
             </p>
           </div>
         </div>
