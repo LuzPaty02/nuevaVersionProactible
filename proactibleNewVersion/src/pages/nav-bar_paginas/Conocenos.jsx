@@ -1,9 +1,9 @@
-import Staff from "./conocenos_componentes/Staff";
-import Testimonios from "./conocenos_componentes/Testimonios";
 import Historia from "./conocenos_componentes/Historia";
+import Mision from "./conocenos_componentes/Mision.jsx";
+import Vision from "./conocenos_componentes/Vision.jsx";
+import Testimonios from "./conocenos_componentes/Testimonios";
+import Staff from "./conocenos_componentes/Staff";
 import Equipo from "./conocenos_componentes/Equipo.jsx";
-import Mision from "./conocenos_componentes/mision.jsx";
-import Propuesta from "./conocenos_componentes/propuesta.jsx";
 import Footer from "../../Footer.jsx";
 
 export default function Conocenos() {
@@ -15,14 +15,14 @@ export default function Conocenos() {
         className="flex flex-col items-center justify-center p-4 w-full max-w-screen-full mx-auto"
       >
         <h2 className="text-4xl md:text-6xl font-normal text-blue p-4 font-serif max-w-4xl text-center">
-          Conoce nuestra Historia
+          Conoce nuestra historia
         </h2>
         <div className="p-8 rounded-lg w-full">
           <Historia />
         </div>
       </div>
 
-      {/* Misión and Propuesta Section */}
+      {/* Misión and Vision Section */}
       <div className="flex flex-col md:flex-row gap-6 items-stretch p-8 w-full mx-auto">
         <div className="w-full md:w-1/2 flex flex-col">
           <h2 className="px-8 text-4xl mb-2 md:text-5xl font-normal text-blue font-serif text-center">
@@ -37,7 +37,7 @@ export default function Conocenos() {
             Nuestra Visión
           </h2>
           <div className="p-8 md:bg-white md:shadow-md rounded-lg flex-1">
-            <Propuesta />
+            <Vision />
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
-import rehabilitacion1 from "../../assets/images/gallery/rehabilitacion1.jpg";
-import rehabilitacion from "../../assets/images/pagina_inicio/rehabilitacion.jpg";
+import rehabilitacion from "../../assets/images/rehabilitacion/rehabilitacion_portada.jpg";
+import rehabilitacion1 from "../../assets/images/rehabilitacion/rehabilitacion_portada_1.jpg";
 import { whatsappIcon } from "../../assets/iconPaths.jsx";
 import { WHATSAPP_LINK } from "../../assets/whatsapp";
 import Footer from "../../Footer.jsx";

@@ -1,4 +1,4 @@
-import carlosYsenor from "../../../assets/images/pagina_inicio/carlosYsenor.jpg";
+import testimonios_boton from "../../../assets/images/pagina_inicio/testimonios_boton.jpg";
 import { testimoniosIcon } from "../../../assets/iconPaths";
 import { Link } from "react-router-dom";
 
@@ -8,7 +8,7 @@ export default function Testimonios_card() {
       <div className="flex flex-col md:flex-row h-full">
         <img
           className="overflo-hidden object-cover w-auto h-56 md:h-auto rounded-t-lg md:w-48 md:rounded-none md:rounded-s-lg"
-          src={carlosYsenor}
+          src={testimonios_boton}
           alt=""
         />
         <div className="p-4 flex flex-col flex-grow justify-between h-full">

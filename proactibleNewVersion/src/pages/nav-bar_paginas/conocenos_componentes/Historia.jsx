@@ -1,4 +1,4 @@
-import portadaHistoria from "../../../assets/images/gallery/proactible12.jpg";
+import portadaHistoria from "../../../assets/images/conocenos/conocenos_portada.jpg";
 export default function Historia() {
   return (
     <div className="flex flex-col md:flex-row justify-start gap-8">

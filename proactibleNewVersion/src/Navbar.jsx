@@ -164,7 +164,7 @@ export default function Navbar() {
               className="flex items-center text-customBlue hover:text-blue-600 transition-colors duration-200"
             >
               {conocenosIcon}
-              <span className="ml-2 text-base">Conocenos</span>
+              <span className="ml-2 text-base">Conócenos</span>
             </Link>
           </li>
 

@@ -1,6 +1,5 @@
-import React from "react";
-import VideoEmbed from "./VideoEmbed.jsx";
 import Chart from "./impacto_componentes/Chart.jsx";
+import VideoEmbed from "./VideoEmbed.jsx";
 import Noticias from "./impacto_componentes/Noticias.jsx";
 import Copa from "./impacto_componentes/Copa.jsx";
 import Footer from "../../Footer.jsx";
@@ -48,8 +47,8 @@ export default function Impacto() {
           <p>
             Organización sin ánimo de lucro con la misión de impulsar la
             inclusión de personas con una amputación de miembro inferior en
-            México para la recuperación de su autonomía. A través de sus
-            iniciativas
+            México para la recuperación de su autonomía a través de sus
+            iniciativas.
           </p>
           <Copa />
         </div>

@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from "react";
-import CarreraProactible1_comp from "../../../assets/images/pagina_inicio/carrousel/Carreraproactible1_compW.webp";
-import protesis from "../../../assets/images/protesis/protesis_boton.jpg";
+import CarreraProactible1_comp from "../../../assets/images/pagina_inicio/carrousel/carreraProactible_carrousel.webp";
+import protesis from "../../../assets/images/pagina_inicio/carrousel/protesis_boton_carrousel.jpg";
 
 export default function Carousel_Banner() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -10,7 +10,7 @@ export default function Carousel_Banner() {
     { src: protesis, alt: "protesis" },
   ];
 
-  // Use `useCallback` to memoize navigation handlers for performance
+  // Use of `useCallback` to memoize navigation handlers for performance
   const nextSlide = useCallback(() => {
     setCurrentSlide((prevSlide) =>
       prevSlide === slides.length - 1 ? 0 : prevSlide + 1

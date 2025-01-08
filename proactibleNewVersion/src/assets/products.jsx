@@ -1,4 +1,6 @@
-// Data.js
+// Data for the products in the "VentaComponentes" page
+
+
 const productData = [
   {
     titulo: "Liner de la marca ALPS",
@@ -10,7 +12,7 @@ const productData = [
   {
     titulo: "Liner Skeo Skinguard",
     descripcion:
-      "Los beneficios que tiene el Liner Skeo Skinguard son los siguientes: Tiene partículas antibacterianas que ayudan a evitar que las bacterias se multipliquen y protegen el material de silicona. Cuenta con un mejor control del olor causado por las bacterias. La piel no es afectada por el aditivo antibacterial.P004",
+      "Los beneficios que tiene el Liner Skeo Skinguard son los siguientes: Tiene partículas antibacterianas que ayudan a evitar que las bacterias se multipliquen y protegen el material de silicona. Cuenta con un mejor control del olor causado por las bacterias. La piel no es afectada por el aditivo antibacterial.P004.",
     imagePath:
       "src/assets/images/venta_componentes_imgs/linear_skeo.png",
     categoria: "Liner",
@@ -66,16 +68,16 @@ const productData = [
   {
     titulo: "Funda protectora CONFETTI II CANVAS",
     descripcion:
-      "Funda protectora para prótesis transfemoral de la marca ID ethnos. Pesa aproximadamente 400 gramos, es compatible con varias rodillas y resistente contra el agua. CP006",
+      "Funda protectora para prótesis transfemoral de la marca ID ethnos. Pesa aproximadamente 400 gramos, es compatible con varias rodillas y resistente contra el agua. CP006.",
     imagePath:
       "src/assets/images/venta_componentes_imgs/fundaprotectora_confetti.png",
     categoria: "Funda protectora",
   },
   {
-    titulo: "Valvula Pushvalve",
+    titulo: "Válvula Pushvalve",
     descripcion: "21Y14",
     imagePath: "src/assets/images/venta_componentes_imgs/valvula_p.png",
-    categoria: "Valvula",
+    categoria: "Válvula",
   },
   {
     titulo: "Manga de Neopreno",
@@ -103,7 +105,7 @@ const productData = [
   {
     titulo: "Bolsa de fácil colocación",
     descripcion:
-      "Bolsa de fácil colocación de prótesis para amputación transfemoral (por arriba de rodilla)",
+      "Bolsa de fácil colocación de prótesis para amputación transfemoral (por arriba de rodilla).",
     imagePath:
       "src/assets/images/venta_componentes_imgs/bolsa_facil_colocacion.png",
     categoria: "Bolsa",
@@ -119,7 +121,7 @@ const productData = [
   {
     titulo: "Rodilla 3R60",
     descripcion:
-      "Rodilla policéntrica. La rodilla 3R60 te permite caminar bien de nuevo, segurirdad potenciada, caminar por terrenos irregulares y pendientes, al igual que sentarse y arrodillarse relajadamente Su nivel de movilidad es de 2, 3. Peso corporal máx: 125kg",
+      "Rodilla policéntrica. La rodilla 3R60 te permite caminar bien de nuevo, segurirdad potenciada, caminar por terrenos irregulares y pendientes, al igual que sentarse y arrodillarse relajadamente Su nivel de movilidad es de 2, 3. Peso corporal máx: 125kg.",
     imagePath:
       "src/assets/images/venta_componentes_imgs/rodilla3R60.jpg",
     categoria: "Rodilla",
@@ -133,7 +135,7 @@ const productData = [
   },
   {
     titulo: "Rodilla 3I15",
-    descripcion:"La rodilla monocéntrica modular 3I15 tiene movilidad 1,2",
+    descripcion:"La rodilla monocéntrica modular 3I15 tiene movilidad 1,2.",
     imagePath: "src/assets/images/venta_componentes_imgs/rodilla3I15.jpg",
     categoria: "Rodilla",
   },

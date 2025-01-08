@@ -1,6 +1,6 @@
-import carlos from "../../../assets/images/team/carlos.jpg";
-import paulina from "../../../assets/images/team/paulina.jpg";
-import rigoberto from "../../../assets/images/team/rigoberto.jpg";
+import carlos from "../../../assets/images/conocenos/equipo_imgs/carlos.jpg";
+import paulina from "../../../assets/images/conocenos/equipo_imgs/paulina.jpg";
+import rigoberto from "../../../assets/images/conocenos/equipo_imgs/rigoberto.jpg";
 
 export default function Staff() {
   return (
@@ -44,7 +44,7 @@ export default function Staff() {
         </div>
         <h2 className="text-xl text-blue font-bold mt-3 mb-2">Rigoberto</h2>
         <p className="text-base text-gray-600 text-center">
-          Director de Cálidad
+          Director de Calidad
         </p>
       </div>
     </div>

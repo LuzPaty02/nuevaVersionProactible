@@ -42,12 +42,6 @@ export default function Banner() {
         {/* Right Side */}
         <div className="bg-white flex-1 flex flex-col items-center justify-center md:p-4">
           <Carousel_Banner />
-
-          {/*  <div className="bg-white flex items-center justify-center mt-4 md:mt-10">
-          //   <img
-          //     src={Carreraproactible1}
-          //     className="w-full h-auto object-cover rounded-lg"
-          //   /> */}
           </div>
           {/* Button visible on small screens */}
           <div className="md:hidden flex justify-center mt-6 z-10">

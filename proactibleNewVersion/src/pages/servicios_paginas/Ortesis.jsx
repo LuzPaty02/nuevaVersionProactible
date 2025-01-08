@@ -1,4 +1,4 @@
-import portada_ortesis from "../../assets/images/ortesis/portada_ortesis.jpg";
+import portada_ortesis from "../../assets/images/ortesis/ortesis_portada.jpg";
 import { whatsappIcon } from '../../assets/iconPaths.jsx';
 import { WHATSAPP_LINK } from "../../assets/whatsapp";
 import Footer from "../../Footer.jsx";

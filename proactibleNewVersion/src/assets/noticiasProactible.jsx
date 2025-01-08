@@ -1,8 +1,11 @@
-import articulo_nature from './images/noticias_articulos/articulo_nature.jpg';
-import world_forum from './images/noticias_articulos/world_forum.jpg';
-import informador from './images/noticias_articulos/informador.jpg';
-import crea_asociacion from './images/noticias_articulos/crea_as.jpg';
-import mural from './images/noticias_articulos/mural.jpg';
+import articulo_nature from './images/impacto/noticias_articulos/articulo_nature.jpg';
+import world_forum from './images/impacto/noticias_articulos/world_forum.jpg';
+import informador from './images/impacto/noticias_articulos/informador.jpg';
+import informador_1 from './images/impacto/noticias_articulos/informador_1.jpg';
+import mural from './images/impacto/noticias_articulos/mural.jpg';
+
+
+//Data for the news section in the Impacto page
 
 
 const noticiasProactible = [
@@ -25,7 +28,7 @@ const noticiasProactible = [
       descripcion: "Proactible atiende cada vez más personas de diferentes Estados de México. Noticia por El Informador.",
       fecha: "julio 1, 2024",
       url: "https://www.informador.mx/economia/Salud-Crea-asociacion-para-ayudara-caminar-con-las-protesis-20240701-0023.html",
-      imagen: crea_asociacion,
+      imagen: informador_1,
     },
     {
       titulo: "Ayudan a dar sus primeros pasos a personas con amputación de piernas",

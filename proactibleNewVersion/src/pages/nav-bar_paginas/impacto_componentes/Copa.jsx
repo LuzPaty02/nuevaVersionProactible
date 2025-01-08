@@ -42,7 +42,7 @@ export default function Copa() {
               Asistente de soporte a través de WhatsApp en temas como
               rehabilitación, primeros cuidados, acceso a fondos y apoyo
               emocional para la comunidad de personas con amputación de miembro
-              inferior en México.
+              inferior en México.
             </p>
           </div>
         </article>

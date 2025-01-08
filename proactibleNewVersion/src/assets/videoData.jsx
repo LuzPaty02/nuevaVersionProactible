@@ -1,7 +1,9 @@
+//Data for video embeds in Testimonios.jsx
+
 const videoData = [
   {
     titulo: "Testimonio Rosa Maria",
-    descripcion: "Rosa Maria nos cuenta su hitoria, ¡Gran admiración para ella!",
+    descripcion: "Rosa Maria nos cuenta su historia, ¡Gran admiración para ella!",
     url: "https://www.youtube.com/embed/C4kiGhXT8lw",
   },
   {
@@ -11,12 +13,12 @@ const videoData = [
   },
   {
     titulo: "Testimonio Jorge",
-    descripcion: "Jorge nos cuenta su experiencia en proactible y como ha sido su proceso con la prótesis",
+    descripcion: "Jorge nos cuenta su experiencia en proactible y óomo ha sido su proceso con la prótesis,",
     url: "https://www.youtube.com/embed/QC4C3r-CSHs",
   },
   {
     titulo: "Testimonio Gerardo",
-    descripcion: "Proceso de Gerardo con su prótesis",
+    descripcion: "Proceso de Gerardo con su prótesis.",
     url: "https://www.youtube.com/embed/PuNrPCQ3NMQ",
   },
   

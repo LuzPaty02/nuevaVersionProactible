@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function VideoEmbed({ url }) {
     return (
         <div className="relative w-full h-0 pb-[56.25%] sm:pb-[75%] md:pb-[56.25%] overflow-hidden">

@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import protesis from "../../../assets/images/protesis/protesis_boton.jpg";
-import ortesis from "../../../assets/images/ortesis/boton_ortesis.jpg";
-import rehabilitacion from "../../../assets/images/pagina_inicio/rehabilitacion_boton1.jpg";
-import ventaComponentesBoton from "../../../assets/images/pagina_inicio/ventaComponentesBoton.jpg";
+import protesis from "../../../assets/images/pagina_inicio/protesis_boton.jpg";
+import ortesis from "../../../assets/images/pagina_inicio/ortesis_boton.jpg";
+import rehabilitacion from "../../../assets/images/pagina_inicio/rehabilitacion_boton.jpg";
+import ventaComponentesBoton from "../../../assets/images/pagina_inicio/ventaComponentes_boton.jpg";
 
 // Define mapping between text and paths
 const pathMapping = {

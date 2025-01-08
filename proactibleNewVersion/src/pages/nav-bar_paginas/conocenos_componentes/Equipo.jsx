@@ -1,6 +1,6 @@
-import Protesistas from "../../../assets/images/team/protesistas.jpg";
-import Fisios from "../../../assets/images/team/fisios1.jpg";
-import Administracion from "../../../assets/images/team/administracion.jpg";
+import Administracion from "../../../assets/images/conocenos/equipo_imgs/administracion.jpg";
+import Protesistas from "../../../assets/images/conocenos/equipo_imgs/protesistas.jpg";
+import Fisios from "../../../assets/images/conocenos/equipo_imgs/fisios1.jpg";
 
 export default function Equipo() {
   return (
