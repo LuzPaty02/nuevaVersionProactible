@@ -1,6 +1,3 @@
-import React from "react";
-
-
 {/*Logic to filter products based on category for component "VentaComponentes"*/}
 
 export default function FiltroComponentes({ categories, selectedCategory, onFilterChange }) {

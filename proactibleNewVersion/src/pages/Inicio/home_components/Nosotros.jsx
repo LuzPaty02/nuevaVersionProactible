@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Nosotros() {
   return (
     <div className="flex flex-col items-center justify-center mt-4 mb-8 md:mt-15 space-y-2">

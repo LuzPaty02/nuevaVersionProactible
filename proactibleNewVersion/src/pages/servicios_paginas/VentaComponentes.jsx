@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { WHATSAPP_LINK } from "../../assets/whatsapp";
 import { whatsappIcon } from "../../assets/iconPaths.jsx";
 import productData from "../../assets/products.jsx";

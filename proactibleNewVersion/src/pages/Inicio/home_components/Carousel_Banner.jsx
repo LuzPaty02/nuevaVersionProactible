@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import { useState, useCallback } from "react";
 import CarreraProactible1_comp from "../../../assets/images/pagina_inicio/carrousel/carreraProactible_carrousel.webp";
 import protesis from "../../../assets/images/pagina_inicio/carrousel/protesis_boton_carrousel.jpg";
 

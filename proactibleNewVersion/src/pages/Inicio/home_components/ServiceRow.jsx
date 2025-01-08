@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import protesis from "../../../assets/images/pagina_inicio/protesis_boton.jpg";
 import ortesis from "../../../assets/images/pagina_inicio/ortesis_boton.jpg";
