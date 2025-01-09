@@ -8,7 +8,7 @@ export default function Noticias_y_Testimonios() {
                 <Noticias_Card />
              </div>
              <div className="w-full sm:w-2/3">
-                <Testimonios_card />
+                <Testimonios_Card />
              </div>
         </div>
     );

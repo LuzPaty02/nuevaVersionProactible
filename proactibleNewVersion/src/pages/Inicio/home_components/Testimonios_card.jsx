@@ -2,7 +2,7 @@ import testimonios_boton from "../../../assets/images/pagina_inicio/testimonios_
 import { testimoniosIcon } from "../../../assets/iconPaths";
 import { Link } from "react-router-dom";
 
-export default function Testimonios_card() {
+export default function Testimonios_Card() {
   return (
     <div className="max-w-full h-full bg-white border-gray-300 rounded-lg shadow-lg hover:bg-gray-100 flex flex-col">
       <div className="flex flex-col md:flex-row h-full">
