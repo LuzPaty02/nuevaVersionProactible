@@ -1,5 +1,5 @@
 import Noticias_Card from "./Noticias_Card";
-import Testimonios_card from "./Testimonios_Card";
+import Testimonios_Card from "./Testimonios_Card";
 
 export default function Noticias_y_Testimonios() {
     return (
