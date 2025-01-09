@@ -25,7 +25,7 @@ export default function Noticias() {
       </time>
       <ol className="space-y-6">
         {noticiasProactible.map((noticia, index) => {
-          console.log(`Rendering noticia ${index}:`, noticia);
+          // console.log(`Rendering noticia ${index}:`, noticia);
 
           return (
             <li
@@ -36,12 +36,12 @@ export default function Noticias() {
                 className="w-full h-auto sm:w-40 sm:h-40 mb-4 sm:mb-0 sm:me-4 object-cover rounded-md"
                 src={noticia.imagen}
                 alt={noticia.titulo}
-                onError={(e) => {
-                  console.error(
-                    `Image failed to load for noticia ${index}:`,
-                    e.target.src
-                  );
-                }}
+                // onError={(e) => {
+                //   console.error(
+                //     `Image failed to load for noticia ${index}:`,
+                //     e.target.src
+                //   );
+                // }}
               />
 
               <div className="flex flex-col text-start sm:text-left">
