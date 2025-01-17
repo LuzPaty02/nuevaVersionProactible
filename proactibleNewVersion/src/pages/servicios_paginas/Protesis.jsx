@@ -71,7 +71,7 @@ export default function Protesis() {
             <img
               src={protesis_transtibial}
               alt="Prótesis transtibial"
-              className="w-full h-[150px] object-cover object-bottom md:object-center md:h-auto rounded-lg md:shadow-md"
+              className="w-full object-cover object-bottom md:object-center md:h-auto rounded-lg md:shadow-md"
             />
           </div>
         </div>
@@ -83,7 +83,7 @@ export default function Protesis() {
             <img
               src={protesis_transfemoral}
               alt="Prótesis transfemoral"
-              className="w-full h-[150px] object-cover object-bottom md:object-center md:h-auto rounded-lg md:shadow-md"
+              className="w-full object-cover object-bottom md:object-center md:h-auto rounded-lg md:shadow-md"
             />
           </div>
           {/* Text */}
@@ -117,7 +117,7 @@ export default function Protesis() {
             <img
               src={protesis_bilateral}
               alt="Prótesis bilateral"
-              className="w-full h-[150px] object-cover object-bottom md:object-center md:h-auto rounded-lg md:shadow-md"
+              className="w-full object-cover object-bottom md:object-center md:h-auto rounded-lg md:shadow-md"
             />
           </div>
         </div>
