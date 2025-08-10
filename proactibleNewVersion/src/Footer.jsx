@@ -54,8 +54,8 @@ export default function Footer() {
           <ul>
             <li className="flex items-center text-blue-950 underline">
               <span className="w-6 h-6 mr-2">{contactIcon}</span>
-              <a href="mailto:contacto@proactible.com">
-                contacto@proactible.com
+              <a href="mailto:contacto@proactible.org">
+                 contacto@proactible.org
               </a>
             </li>
           </ul>

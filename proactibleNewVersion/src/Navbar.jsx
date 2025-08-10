@@ -6,7 +6,7 @@ import {
   conocenosIcon,
   impactoIcon
 } from "./assets/iconPaths";
-import logo2 from "./assets/images/logo2s.jpg";
+import logo2 from "./assets/images/logos/logo2s.jpg";
 import { WHATSAPP_LINK } from "./assets/whatsapp";
 
 export default function Navbar() {
